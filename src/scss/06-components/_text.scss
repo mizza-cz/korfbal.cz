@@ -34,6 +34,24 @@
     line-height: 125%;
   }
 }
+.h4,
+.o-content h4 {
+  font-family: var(--font-display);
+  font-size: 24px;
+  line-height: 125%;
+}
+.h5,
+.o-content h5 {
+  font-family: var(--font-display);
+  font-size: 20px;
+  line-height: 125%;
+}
+.h6,
+.o-content h6 {
+  font-family: var(--font-display);
+  font-size: 16px;
+  line-height: 125%;
+}
 
 .perex {
   font-weight: 700;
@@ -42,12 +60,6 @@
   @include media-breakpoint-down(lg) {
     font-size: 18px;
   }
-}
-
-.text-bold-20 {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 125%;
 }
 
 // base !!
@@ -69,6 +81,16 @@
   line-height: 125%;
 }
 // bold !!
+.text-bold-20 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 125%;
+}
+.text-bold-15 {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 125%;
+}
 .text-bold-14 {
   font-size: 14px;
   line-height: 125%;

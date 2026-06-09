@@ -1,6 +1,3 @@
-.dotDecore {
-}
-
 [class^="dotDecore"] {
   position: relative;
   display: flex;
@@ -26,4 +23,8 @@
 
 .dotDecore-blue::before {
   background: var(--color-primary-2);
+}
+
+.dotDecore-primary-50::before {
+  background: var(--color-primary-50);
 }
