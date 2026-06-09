@@ -1,0 +1,46 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  
+  gap: 8px;
+
+  .page-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 100%;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    transition: all 0.25s ease;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    &:hover {
+      border-color: var(--color-primary);
+      background: var(--color-white);
+      color: var(--color-primary);
+    }
+  }
+  .page-item.active .page-link {
+    background: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    color: var(--color-white);
+  }
+  .page-prev {
+    transform: rotate(-180deg);
+  }
+  .page-prev,
+  .page-next {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    svg {
+      width: 13px;
+      height: 11px;
+    }
+  }
+}

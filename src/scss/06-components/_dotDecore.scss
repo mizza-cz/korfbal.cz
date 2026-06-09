@@ -1,0 +1,29 @@
+.dotDecore {
+}
+
+[class^="dotDecore"] {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 0;
+    border-radius: 100%;
+  }
+}
+
+.dotDecore-accent::before {
+  background: var(--color-accent);
+}
+
+.dotDecore-primary::before {
+  background: var(--color-primary);
+}
+
+.dotDecore-blue::before {
+  background: var(--color-primary-2);
+}

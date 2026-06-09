@@ -1,0 +1,76 @@
+/*! purgecss start ignore */
+.container {
+  max-width: 95.67rem !important;
+  width: 100% !important;
+  padding: 0 16px;
+  @include media-breakpoint-up(xl) {
+    padding: 0 32px;
+  }
+  @include media-breakpoint-up(md) {
+    padding: 0 24px;
+  }
+}
+.font-display {
+  font-family: var(--font-display);
+}
+.bg-white {
+  background: var(--color-white) !important;
+}
+.text-white {
+  color: var(--color-white) !important;
+}
+.text-white-60 {
+  color: var(--color-white-60) !important;
+}
+.text-white-75 {
+  color: var(--color-white-75) !important;
+}
+.text-white-80 {
+  color: var(--color-white-80) !important;
+}
+.text-paper {
+  color: var(--color-paper) !important;
+}
+.text-accent {
+  color: var(--color-accent) !important;
+}
+.text-primary {
+  color: var(--color-primary) !important;
+}
+.text-primary-2 {
+  color: var(--color-primary-2) !important;
+}
+.text-primary-50 {
+  color: var(--color-primary-50) !important;
+}
+.text-primary-60 {
+  color: var(--color-primary-60) !important;
+}
+.text-primary-70 {
+  color: var(--color-primary-70) !important;
+}
+.text-primary-80 {
+  color: var(--color-primary-80) !important;
+}
+.hover-outline a,
+a.hover-outline {
+  text-decoration: underline;
+  transition: all 0.25s ease;
+  text-decoration-color: transparent;
+  &:hover {
+    text-decoration-color: inherit;
+  }
+}
+.border-top-line-1 {
+  border-top: 1px solid var(--color-line);
+}
+.border-bottom-line-1 {
+  border-bottom: 1px solid var(--color-line);
+}
+.lh_1 {
+  line-height: 100%;
+}
+.rounded-circle {
+  border-radius: 100%;
+}
+/*! purgecss end ignore */

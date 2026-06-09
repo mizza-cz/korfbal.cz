@@ -1,0 +1,15 @@
+[class^="link"] {
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 125%;
+  display: inline-flex;
+  gap: 4px;
+  align-items: center;
+  font-size: 11px;
+  line-height: 100%;
+  font-weight: 700;
+  text-decoration-color: transparent;
+  &:hover {
+    text-decoration-color: inherit;
+  }
+}

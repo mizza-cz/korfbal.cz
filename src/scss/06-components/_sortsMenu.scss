@@ -1,0 +1,31 @@
+.sortsMenu {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  overflow-x: auto;
+
+  &__link {
+    text-decoration: none;
+    transition: all 0.25s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 99px;
+    border: 1px solid transparent;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 100%;
+    text-transform: uppercase;
+    padding: 10px 16px;
+    white-space: nowrap;
+    &:hover {
+      border-color: var(--color-primary);
+    }
+  }
+
+  &__link.active {
+    background: var(--color-primary);
+    color: var(--color-white);
+    border-color: var(--color-primary);
+  }
+}
