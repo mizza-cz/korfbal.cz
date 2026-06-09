@@ -1,20 +1,8 @@
-.tableDark {
-  th {
-    background: var(--color-primary);
-    color: var(--color-white-70);
-  }
-}
 .table {
   border-collapse: collapse;
   min-width: max-content;
   width: 100%;
 
-  th:first-child {
-    border-radius: 6px 0 0 6px;
-  }
-  th:last-child {
-    border-radius: 0 6px 6px 0;
-  }
   th,
   td {
     padding: 14px 16px;
@@ -35,5 +23,24 @@
     td {
       border: none;
     }
+  }
+}
+
+.table.tableDark {
+  th {
+    background: var(--color-primary);
+    color: var(--color-white-70);
+  }
+  th:first-child {
+    border-radius: 6px 0 0 6px;
+  }
+  th:last-child {
+    border-radius: 0 6px 6px 0;
+  }
+}
+.table.tableLight {
+  th {
+    background: var(--color-paper-2);
+    color: var(--color-primary-60);
   }
 }

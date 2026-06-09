@@ -1,0 +1,40 @@
+.clubsStats {
+  display: flex;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 -8px 24px -8px;
+  @include media-breakpoint-up(md) {
+    margin: 0 -12px 24px;
+  }
+  li {
+    padding: 0 8px;
+    margin-bottom: 16px;
+    flex: 0 50%;
+    @include media-breakpoint-up(xxl) {
+      flex: 1;
+    }
+    @include media-breakpoint-up(md) {
+      flex: 0 33.333%;
+      padding: 0 12px;
+      margin-bottom: 24px;
+    }
+  }
+  &__item {
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/content/club-stats.png");
+
+    @include media-breakpoint-down(lg) {
+      flex-direction: column;
+    }
+    @include media-breakpoint-up(lg) {
+      padding: 32px;
+    }
+  }
+}
