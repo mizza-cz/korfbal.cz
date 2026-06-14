@@ -28,14 +28,23 @@
 .text-white-60 {
   color: var(--color-white-60) !important;
 }
+.text-white-70 {
+  color: var(--color-white-70);
+}
 .text-white-75 {
   color: var(--color-white-75) !important;
 }
 .text-white-80 {
   color: var(--color-white-80) !important;
 }
+.text-white-85 {
+  color: var(--color-white-85) !important;
+}
 .text-paper {
   color: var(--color-paper) !important;
+}
+.text-paper-2 {
+  color: var(--color-paper-2);
 }
 .text-paper-2_60 {
   color: var(--color-paper-2_60) !important;
@@ -48,6 +57,12 @@
 }
 .text-primary-2 {
   color: var(--color-primary-2) !important;
+}
+.text-primary-30 {
+  color: var(--color-primary-30) !important;
+}
+.text-primary-40 {
+  color: var(--color-primary-40) !important;
 }
 .text-primary-50 {
   color: var(--color-primary-50) !important;
@@ -63,6 +78,9 @@
 }
 .text-primary-80 {
   color: var(--color-primary-80) !important;
+}
+.text-primary-85 {
+  color: var(--color-primary-85);
 }
 .hover-outline a,
 a.hover-outline {
@@ -84,5 +102,25 @@ a.hover-outline {
 }
 .rounded-circle {
   border-radius: 100%;
+}
+.object-position-top {
+  object-position: top;
+}
+
+.filterForm-select--blue {
+  .select2-container--default .select2-selection--single {
+    background: var(--color-primary);
+  }
+  .select2-container--default
+    .select2-selection--single
+    .select2-selection__rendered {
+    color: var(--color-white) !important;
+  }
+  .select2-container--default
+    .select2-selection--single
+    .select2-selection__arrow
+    b {
+    background-image: url("../images/ico/down-white.svg");
+  }
 }
 /*! purgecss end ignore */

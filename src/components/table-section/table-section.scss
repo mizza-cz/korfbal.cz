@@ -1,0 +1,31 @@
+.tableNum {
+  position: relative;
+  padding-left: 12px;
+  display: flex;
+  align-items: center;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 4px;
+    height: 32px;
+    background: var(--color-white);
+  }
+}
+
+.table tbody {
+  tr:nth-child(-n + 4) .tableNum::before {
+    background: var(--color-green);
+  }
+
+  tr:nth-child(5),
+  tr:nth-child(6) {
+    .tableNum::before {
+      background: var(--color-white);
+    }
+  }
+
+  tr:nth-child(n + 7) .tableNum::before {
+    background: var(--color-accent);
+  }
+}

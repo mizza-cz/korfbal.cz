@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="cs-CZ">
+
+<head>
+	<meta charset="utf-8" />
+	<title>07.0_player-detail - ČESKÝ KORFBALOVÝ SVAZ</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+	<meta name="format-detection" content="telephone=no" />
+
+	<!--****** Favicon ******-->
+	<!--****** Fonts ******-->
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+	<!--****** Styles  ******-->
+	<link rel="preload" href="css/styles.css" as="style" />
+	<link rel="stylesheet" media="screen, handheld" href="css/styles.css" />
+	<link rel="stylesheet" media="print" href="css/prints.css" />
+	<!--****** Styles  ******-->
+
+	<!--****** Scripts  ******-->
+	<link rel="preload" href="https://code.jquery.com/jquery-3.6.0.min.js" as="script" crossorigin />
+	<link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" as="script" crossorigin />
+	<link rel="preload" href="js/scripts.js" as="script" />
+	<!-- ****** scripts ****** -->
+</head>
+
+<body>
+	<div class="base">
+		<header class="header">
+			<div class="headerTop">
+				<div class="container">
+					<div class="headerTop__inner">
+						<ul class="headerTop__menu">
+							<li class="d-md-block d-none">
+								<a class="fw-bold hover-outline" href="#">ČESKÝ KORFBALOVÝ SVAZ</a>
+							</li>
+							<li>St 15. 4. 2026</li>
+							<li>
+								<a href="#" class="dotDecore-accent fw-bold hover-outline ps-4">
+									2 ZÁPASY LIVE
+								</a>
+							</li>
+						</ul>
+						<ul class="headerTop__links">
+							<li>
+								<a href="#">EN</a>
+							</li>
+							<li>
+								<a href="#">PRO MÉDIA</a>
+							</li>
+							<li>
+								<a href="#">DOKUMENTY</a>
+							</li>
+							<li>
+								<a href="#">Kontakt</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="headerNav">
+				<div class="container">
+					<div class="headerNav-mobile">
+						<a href="#" class="header__logo">
+							<img src="images/content/header-logo.png" alt="logo" />
+						</a>
+						<button class="c-header__opener js-header__opener iconLink" type="button">
+							<span></span>
+						</button>
+					</div>
+					<div class="headerNav__inner">
+						<a href="#" class="header__logo">
+							<img src="images/content/header-logo.png" alt="logo" />
+						</a>
+						<nav class="navbar">
+							<ul class="navbar__menu">
+								<li class="navbar__menu-list">
+									<a href="#" class="navbar__menu-item">
+										SOUTĚŽE <svg width="3" height="3" viewBox="0 0 3 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M1.341 2.673L0 0h2.673L1.341 2.673z" fill="#1B2046" />
+										</svg> </a>
+									<ul class="dropdown-menu">
+										<li class="dropdown-menu__list">
+											<a href="#">A-Tím</a>
+										</li>
+										<li class="dropdown-menu__list">
+											<a href="#">B-Tím</a>
+										</li>
+										<li class="dropdown-menu__list">
+											<a href="#">Ženy</a>
+										</li>
+									</ul>
+								</li>
+								<li class="navbar__menu-list">
+									<a href="#" class="navbar__menu-item">
+										REPREZENTACE <svg width="3" height="3" viewBox="0 0 3 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M1.341 2.673L0 0h2.673L1.341 2.673z" fill="#1B2046" />
+										</svg> </a>
+									<ul class="dropdown-menu">
+										<li class="dropdown-menu__list">
+											<a href="#">A-Tím</a>
+										</li>
+										<li class="dropdown-menu__list">
+											<a href="#">B-Tím</a>
+										</li>
+										<li class="dropdown-menu__list">
+											<a href="#">Ženy</a>
+										</li>
+									</ul>
+								</li>
+								<li class="navbar__menu-list">
+									<a href="#" class="navbar__menu-item">
+										KLUBY <svg width="3" height="3" viewBox="0 0 3 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M1.341 2.673L0 0h2.673L1.341 2.673z" fill="#1B2046" />
+										</svg> </a>
+									<ul class="dropdown-menu">
+										<li class="dropdown-menu__list">
+											<a href="#">A-Tím</a>
+										</li>
+										<li class="dropdown-menu__list">
+											<a href="#">B-Tím</a>
+										</li>
+										<li class="dropdown-menu__list">
+											<a href="#">Ženy</a>
+										</li>
+									</ul>
+								</li>
+								<li class="navbar__menu-list">
+									<a href="#" class="navbar__menu-item">
+										AKADEMIE <svg width="3" height="3" viewBox="0 0 3 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M1.341 2.673L0 0h2.673L1.341 2.673z" fill="#1B2046" />
+										</svg> </a>
+									<ul class="dropdown-menu">
+										<li class="dropdown-menu__list">
+											<a href="#">A-Tím</a>
+										</li>
+										<li class="dropdown-menu__list">
+											<a href="#">B-Tím</a>
+										</li>
+										<li class="dropdown-menu__list">
+											<a href="#">Ženy</a>
+										</li>
+									</ul>
+								</li>
+								<li class="navbar__menu-list">
+									<a href="#" class="navbar__menu-item">
+										MAGAZÍN <svg width="3" height="3" viewBox="0 0 3 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M1.341 2.673L0 0h2.673L1.341 2.673z" fill="#1B2046" />
+										</svg> </a>
+									<ul class="dropdown-menu">
+										<li class="dropdown-menu__list">
+											<a href="#">A-Tím</a>
+										</li>
+										<li class="dropdown-menu__list">
+											<a href="#">B-Tím</a>
+										</li>
+										<li class="dropdown-menu__list">
+											<a href="#">Ženy</a>
+										</li>
+									</ul>
+								</li>
+								<li class="navbar__menu-list">
+									<a href="#" class="navbar__menu-item">
+										SVAZ <svg width="3" height="3" viewBox="0 0 3 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M1.341 2.673L0 0h2.673L1.341 2.673z" fill="#1B2046" />
+										</svg> </a>
+									<ul class="dropdown-menu">
+										<li class="dropdown-menu__list">
+											<a href="#">A-Tím</a>
+										</li>
+										<li class="dropdown-menu__list">
+											<a href="#">B-Tím</a>
+										</li>
+										<li class="dropdown-menu__list">
+											<a href="#">Ženy</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
+
+						<div class="header-social">
+							<ul class="header-social__links">
+								<li>
+									<a href="#" class="header-social__link">
+										<img src="images/ico/fb.svg" width="16" height="16" class="object-fit-contain" alt="social" />
+									</a>
+								</li>
+								<li>
+									<a href="#" class="header-social__link">
+										<img src="images/ico/insta.svg" width="16" height="16" class="object-fit-contain" alt="social" />
+									</a>
+								</li>
+								<li>
+									<a href="#" class="header-social__link">
+										<img src="images/ico/youtube.svg" width="21" height="14" class="object-fit-contain" alt="social" />
+									</a>
+								</li>
+								<li>
+									<a href="#" class="header-social__link">
+										<img src="images/ico/search-primary.svg" width="16" height="16" class="object-fit-contain" alt="search" />
+									</a>
+								</li>
+							</ul>
+							<a href="#" class="button-primary button-xxl">přihlásit</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="main" aria-label="Hlavní obsah">
+			<section class="playerDetail">
+				<div class="container">
+					<a href="#" class="link text-white-70 mb-6">
+						<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g transform="translate(11 0) scale(-1 1)">
+								<path d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z" fill="rgba(255, 255, 255, .7)" />
+							</g>
+						</svg>
+						HRÁČI · KK BRNO · #5
+					</a>
+
+					<div class="d-flex flex-sm-row flex-column gap-lg-12 gap-8 align-items-center mb-6">
+						<div class="playerDetail__avatar">
+							<img src="images/content/player.png" alt="player" />
+						</div>
+						<div class="playerDetail__content">
+							<div class="d-flex align-items-center gap-3 mb-5">
+								<div class="tag-white">#5 · KAPITÁN</div>
+								<div class="text-bold-11 text-white-70">
+									<span class="text-uppercase">ÚTOK</span>
+									·
+									<span>1,76 m</span>
+									·
+									<span>64 kg</span>
+								</div>
+							</div>
+							<h1 class="h1 mb-5">Tereza Hájková</h1>
+							<p class="text-uppercase text-bold-11 text-white-80">
+								KK BRNO · 28 LET · NAROZENA 12. 6. 1997 · ČESKÁ REPUBLIKA
+							</p>
+						</div>
+					</div>
+					<ul class="playerDetail-info">
+						<li>
+							<div class="h4 text-white mb-md-3">23</div>
+							<div class="dotDecore-white-70 text-bold-10 text-white-70 text-uppercase">
+								ZÁPASŮ
+							</div>
+						</li>
+						<li>
+							<div class="h4 text-white mb-md-3">147</div>
+							<div class="dotDecore-white-70 text-bold-10 text-white-70 text-uppercase">
+								KOŠŮ
+							</div>
+						</li>
+						<li>
+							<div class="h4 text-white mb-md-3">38</div>
+							<div class="dotDecore-white-70 text-bold-10 text-white-70 text-uppercase">
+								ASISTENCÍ
+							</div>
+						</li>
+						<li>
+							<div class="h4 text-white mb-md-3">6,4</div>
+							<div class="dotDecore-white-70 text-bold-10 text-white-70 text-uppercase">
+								KOŠŮ NA ZÁPAS
+							</div>
+						</li>
+						<li>
+							<div class="h4 text-white mb-md-3">#1</div>
+							<div class="dotDecore-white-70 text-bold-10 text-white-70 text-uppercase">
+								V LIZE
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="playerContent pb-lg-20 pb-10">
+				<div class="container">
+					<div class="row g-6">
+						<div class="col-lg-8">
+							<div class="dotDecore-accent text-uppercase text-accent text-bold-11 mb-2">
+								STATISTIKY PO SEZÓNÁCH
+							</div>
+							<h2 class="h2 mb-5">Kariéra v Extralize</h2>
+							<div class="table-responsive mb-6">
+								<table class="tableLight table m-0">
+									<thead>
+										<tr>
+											<th style="width: 120px">SEZÓNA</th>
+											<th>KLUB</th>
+											<th style="width: 60px">Z</th>
+											<th style="width: 80px">KOŠŮ</th>
+											<th style="width: 70px">∅Z</th>
+											<th style="width: 60px">AS</th>
+											<th style="width: 90px">POŘADÍ</th>
+										</tr>
+									</thead>
+
+									<tbody>
+										<tr>
+											<td class="fw-bold">2025/26</td>
+											<td>KK Brno</td>
+											<td class="font-display text-base-18 fw-bold">23</td>
+											<td class="font-display text-base-18 fw-bold">147</td>
+											<td>6,4</td>
+											<td class="font-display text-base-18 fw-bold">38</td>
+											<td class="fw-bold">#1</td>
+										</tr>
+
+										<tr>
+											<td class="fw-bold">2024/25</td>
+											<td>KK Brno</td>
+											<td class="font-display text-base-18 fw-bold">28</td>
+											<td class="font-display text-base-18 fw-bold">162</td>
+											<td>5,8</td>
+											<td class="font-display text-base-18 fw-bold">41</td>
+											<td class="fw-bold">#1</td>
+										</tr>
+
+										<tr>
+											<td class="fw-bold">2023/24</td>
+											<td>KK Brno</td>
+											<td class="font-display text-base-18 fw-bold">28</td>
+											<td class="font-display text-base-18 fw-bold">144</td>
+											<td>5,1</td>
+											<td class="font-display text-base-18 fw-bold">37</td>
+											<td class="fw-bold">#3</td>
+										</tr>
+
+										<tr>
+											<td class="fw-bold">2022/23</td>
+											<td>KK Brno</td>
+											<td class="font-display text-base-18 fw-bold">27</td>
+											<td class="font-display text-base-18 fw-bold">128</td>
+											<td>4,7</td>
+											<td class="font-display text-base-18 fw-bold">33</td>
+											<td class="fw-bold">#5</td>
+										</tr>
+
+										<tr>
+											<td class="fw-bold">2021/22</td>
+											<td>KK Vyškov</td>
+											<td class="font-display text-base-18 fw-bold">26</td>
+											<td class="font-display text-base-18 fw-bold">92</td>
+											<td>3,5</td>
+											<td class="font-display text-base-18 fw-bold">28</td>
+											<td class="fw-bold">–</td>
+										</tr>
+
+										<tr>
+											<td class="fw-bold">2020/21</td>
+											<td>KK Vyškov</td>
+											<td class="font-display text-base-18 fw-bold">22</td>
+											<td class="font-display text-base-18 fw-bold">68</td>
+											<td>3,1</td>
+											<td class="font-display text-base-18 fw-bold">19</td>
+											<td class="fw-bold">–</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+
+							<div class="dotDecore-accent text-uppercase text-accent text-bold-11 mb-2">
+								POSLEDNÍ ZÁPASY
+							</div>
+							<h2 class="h2 mb-5">Forma · 5 zápasů</h2>
+							<div class="table-responsive">
+								<table class="tableForm table mb-0">
+									<tbody>
+										<tr>
+											<td class="tableForm__status">
+												<span class="resultItem win">V</span>
+											</td>
+
+											<td class="tableForm__date">St 14. 4.</td>
+
+											<td class="tableForm__match fw-bold">BRN — PRH</td>
+
+											<td class="tableForm__score">24:15</td>
+
+											<td class="tableForm__stat">
+												<span>7</span>
+												<small>K</small>
+											</td>
+
+											<td class="tableForm__stat">
+												<span>3</span>
+												<small>A</small>
+											</td>
+										</tr>
+
+										<tr>
+											<td>
+												<span class="resultItem loss">P</span>
+											</td>
+											<td class="tableForm__date">So 11. 4.</td>
+											<td class="fw-bold">OLO — BRN</td>
+											<td class="tableForm__score">14:22</td>
+											<td class="tableForm__stat"><span>8</span><small>K</small></td>
+											<td class="tableForm__stat"><span>2</span><small>A</small></td>
+										</tr>
+
+										<tr>
+											<td>
+												<span class="resultItem win">V</span>
+											</td>
+											<td class="tableForm__date">St 8. 4.</td>
+											<td class="fw-bold">BRN — LIB</td>
+											<td class="tableForm__score">28:08</td>
+											<td class="tableForm__stat"><span>11</span><small>K</small></td>
+											<td class="tableForm__stat"><span>5</span><small>A</small></td>
+										</tr>
+
+										<tr>
+											<td>
+												<span class="resultItem win">V</span>
+											</td>
+											<td class="tableForm__date">So 4. 4.</td>
+											<td class="fw-bold">BRN — PLZ</td>
+											<td class="tableForm__score">21:19</td>
+											<td class="tableForm__stat"><span>6</span><small>K</small></td>
+											<td class="tableForm__stat"><span>4</span><small>A</small></td>
+										</tr>
+
+										<tr>
+											<td>
+												<span class="resultItem win">V</span>
+											</td>
+											<td class="tableForm__date">St 1. 4.</td>
+											<td class="fw-bold">CB — BRN</td>
+											<td class="tableForm__score">17:19</td>
+											<td class="tableForm__stat"><span>5</span><small>K</small></td>
+											<td class="tableForm__stat"><span>4</span><small>A</small></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<aside class="d-grid gap-6">
+								<div class="bg-white p-md-6 p-4">
+									<div class="dotDecore-accent text-uppercase text-accent text-bold-11 mb-5">
+										PROFIL
+									</div>
+									<h4 class="h3 mb-5">Základní informace</h4>
+									<ul class="d-grid gap-4">
+										<li>
+											<div class="text-primary-50 text-bold-11 text-uppercase">
+												Jméno
+											</div>
+											<div class="text-bold-14 mt-1">Tereza Hájková</div>
+										</li>
+
+										<li>
+											<div class="text-primary-50 text-bold-11 text-uppercase">
+												Narozena
+											</div>
+											<div class="text-bold-14 mt-1">12. 6. 1997 (28 let)</div>
+										</li>
+
+										<li>
+											<div class="text-primary-50 text-bold-11 text-uppercase">
+												Místo narození
+											</div>
+											<div class="text-bold-14 mt-1">Brno</div>
+										</li>
+
+										<li>
+											<div class="text-primary-50 text-bold-11 text-uppercase">
+												Výška / váha
+											</div>
+											<div class="text-bold-14 mt-1">1,76 m · 64 kg</div>
+										</li>
+
+										<li>
+											<div class="text-primary-50 text-bold-11 text-uppercase">
+												Pozice
+											</div>
+											<div class="text-bold-14 mt-1">Útok · Levá ruka</div>
+										</li>
+
+										<li>
+											<div class="text-primary-50 text-bold-11 text-uppercase">
+												Číslo
+											</div>
+											<div class="text-bold-14 mt-1">#5 · Kapitánka</div>
+										</li>
+
+										<li>
+											<div class="text-primary-50 text-bold-11 text-uppercase">
+												V klubu od
+											</div>
+											<div class="text-bold-14 mt-1">2022 (přestup z KK Vyškov)</div>
+										</li>
+
+										<li>
+											<div class="text-primary-50 text-bold-11 text-uppercase">
+												Reprezentace
+											</div>
+											<div class="text-bold-14 mt-1">38 startů · 47 košů</div>
+										</li>
+									</ul>
+								</div>
+								<div class="bg-white p-md-6 p-4">
+									<div class="dotDecore-primary text-uppercase text-bold-11 mb-4">
+										TROFEJE
+									</div>
+									<h4 class="h2 mb-4">4× mistryně ČR</h4>
+									<div class="text-primary-85">
+										2022, 2023, 2024 + nominace 2026 · 2× Pohár ČKS · 1× nejlepší
+										střelkyně · 3× hráčka kola
+									</div>
+								</div>
+							</aside>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer pt-lg-20 pt-10">
+			<div class="container">
+				<div class="row g-8 pb-lg-16 pb-10">
+					<!-- Logo -->
+					<div class="col-lg-4">
+						<div class="footerInfo">
+							<a href="/" class="footer__logo">
+								KORFBAL<span class="text-accent">.CZ</span>
+							</a>
+
+							<div class="text-uppercase mb-2 text-white-60 text-base-13">
+								ČESKÝ KORFBALOVÝ SVAZ · OD 1991
+							</div>
+
+							<p class="text-white-75 mb-2 text-base-13">
+								Zápolíme. Spojujeme. Učíme. Korfbal je olympijská disciplína
+								budoucnosti, smíšený sport a komunita.
+							</p>
+
+							<ul class="footer__social">
+								<li>
+									<a href="#"> <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M16 8.02C16 3.593 12.416 0 8 0S0 3.593 0 8.02a8.022 8.022 0 006.4 7.86v-5.454H4.8V8.02h1.6V6.015a2.807 2.807 0 012.8-2.807h2v2.406H9.6c-.44 0-.8.36-.8.802V8.02h2.4v2.406H8.8V16c4.04-.401 7.2-3.818 7.2-7.98z" fill="#11427A" />
+										</svg> </a>
+								</li>
+								<li>
+									<a href="#"> <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M8.822.001a63.05 63.05 0 011.752.018l.155.005.57.024c.85.04 1.431.175 1.94.372.529.203.973.479 1.418.923.407.4.722.883.923 1.417.197.51.332 1.091.372 1.942.01.213.017.39.024.57l.004.155c.015.584.02 1.167.019 1.75v1.645c.003.584-.004 1.168-.018 1.751l-.005.156c-.006.179-.014.356-.024.57-.04.85-.175 1.431-.372 1.94a3.907 3.907 0 01-.923 1.418c-.4.407-.883.722-1.417.923-.51.197-1.09.332-1.942.372-.213.01-.39.017-.57.024l-.155.004c-.583.015-1.167.02-1.75.019H7.177a62.714 62.714 0 01-1.75-.018l-.156-.005c-.19-.006-.38-.014-.57-.024-.85-.04-1.431-.176-1.942-.372a3.913 3.913 0 01-1.416-.923A3.923 3.923 0 01.42 13.24c-.197-.51-.332-1.09-.372-1.942l-.024-.57-.004-.155A63.239 63.239 0 010 8.823V7.177c-.002-.584.004-1.167.018-1.75l.006-.156c.006-.18.014-.357.024-.57C.088 3.85.222 3.27.42 2.76a3.904 3.904 0 01.924-1.416c.4-.407.883-.723 1.416-.924C3.27.223 3.85.088 4.703.048l.57-.024.154-.004A63.238 63.238 0 017.177 0l1.645.001zm-.822 4A4 4 0 108 12a4 4 0 100-8zm0 1.6A2.4 2.4 0 118 10.4a2.4 2.4 0 110-4.8zm4.2-2.8a1 1 0 000 1.998 1 1 0 100-2v.002z" fill="#11427A" />
+										</svg> </a>
+								</li>
+								<li>
+									<a href="#"> <svg width="21" height="14" viewBox="0 0 21 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M20.562 11.813c-.12.423-.354.81-.68 1.12-.326.31-.732.534-1.177.648C17.068 14 10.5 14 10.5 14s-6.567 0-8.205-.417a2.661 2.661 0 01-1.177-.647 2.473 2.473 0 01-.68-1.12C0 10.254 0 7 0 7s0-3.255.438-4.813C.68 1.327 1.392.649 2.295.419 3.933 0 10.5 0 10.5 0s6.567 0 8.206.42c.904.229 1.614.906 1.856 1.767C21 3.745 21 7 21 7s0 3.255-.438 4.813zm-12.148-7.8v5.974l5.438-2.965-5.438-3.01z" fill="#11427A" />
+										</svg> </a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Menu -->
+					<div class="col-lg-8">
+						<div class="row gy-4">
+							<div class="col-6 col-md-3">
+								<a href="#" class="text-uppercase text-white mb-4 hover-outline text-bold-11 d-block">
+									SOUTĚŽE
+								</a>
+
+								<ul class="text-white-80 text-base-13 d-grid gap-2 hover-outline">
+									<li><a href="#">Extraliga</a></li>
+									<li><a href="#">1. liga</a></li>
+									<li><a href="#">2. liga</a></li>
+									<li><a href="#">Pohár ČKS</a></li>
+									<li><a href="#">Mládež</a></li>
+								</ul>
+							</div>
+
+							<div class="col-6 col-md-3">
+								<a href="#" class="text-uppercase text-white mb-4 hover-outline text-bold-11 d-block">
+									REPREZENTACE
+								</a>
+
+								<ul class="text-white-80 text-base-13 d-grid gap-2 hover-outline">
+									<li><a href="#">Muži</a></li>
+									<li><a href="#">Ženy</a></li>
+									<li><a href="#">U19</a></li>
+									<li><a href="#">U21</a></li>
+									<li><a href="#">Beach</a></li>
+								</ul>
+							</div>
+
+							<div class="col-6 col-md-3">
+								<a href="#" class="text-uppercase text-white mb-4 hover-outline text-bold-11 d-block">
+									AKADEMIE
+								</a>
+
+								<ul class="text-white-80 text-base-13 d-grid gap-2 hover-outline">
+									<li><a href="#">Trenéři</a></li>
+									<li><a href="#">Rozhodčí</a></li>
+									<li><a href="#">Mentoring</a></li>
+									<li><a href="#">Vzdělávání</a></li>
+								</ul>
+							</div>
+
+							<div class="col-6 col-md-3">
+								<a href="#" class="text-uppercase text-white mb-4 hover-outline text-bold-11 d-block">
+									SVAZ
+								</a>
+
+								<ul class="text-white-80 text-base-13 d-grid gap-2 hover-outline">
+									<li><a href="#">O svazu</a></li>
+									<li><a href="#">Výkonný výbor</a></li>
+									<li><a href="#">Dokumenty</a></li>
+									<li><a href="#">Kontakt</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="footerBottom">
+					<div class="row align-items-center gy-3 text-white-60 text-base-13">
+						<div class="col-lg-4 text-uppercase text-lg-start text-center">
+							© 2026 ČESKÝ KOrfBALOVÝ SVAZ · IČO 47611030
+						</div>
+
+						<div class="col-lg-4">
+							<div class="d-flex gap-4 text-uppercase justify-content-center text-center hover-outline">
+								<a href="#" class="">COOKIES</a>
+								<a href="#" class=" ">GDPR</a>
+								<a href="#" class="">PRO MÉDIA</a>
+							</div>
+						</div>
+
+						<div class="col-lg-4">
+							<div class="d-flex justify-content-lg-end justify-content-center align-items-center gap-2">
+								Vyrobeno v
+								<img class="object-fit-contain" src="images/ico/esports.svg" width="71" alt="eSports" height="21" />
+								v roce 2026
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script defer src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<script defer src="js/scripts.js"></script>
+</body>
+
+</html>

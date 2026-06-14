@@ -1,0 +1,111 @@
+<section class="socialFeed">
+  <div class="container">
+    <div
+      class="dotDecore-accent text-uppercase text-accent text-bold-11 mb-lg-8 mb-6"
+    >
+      INSTAGRAM
+    </div>
+    <div
+      class="d-flex align-items-center justify-content-between mb-8 flex-wrap gap-4"
+    >
+      <h3 class="h2 text-black-primary">
+        <span class="text-accent">@</span>korfbalcz
+      </h3>
+
+      <a href="#" class="button-primary">
+        SLEDOVAT NA IG
+        <svg
+          width="11"
+          height="11"
+          viewBox="0 0 11 11"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z"
+            fill="#fff"
+          />
+        </svg>
+      </a>
+    </div>
+    <div class="socialFeedSlider swiper">
+      <ul role="list" class="swiper-wrapper infinite-scroll-swiper">
+        {% for i in 1..4 %}
+        <li class="swiper-slide">
+          <a href="#" class="socialFeed-item blue">
+            <div class="socialFeed-img">
+              <img
+                srcset="
+                  https://picsum.photos/338/260 1x,
+                  https://picsum.photos/676/520 2x
+                "
+                alt="post"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="socialFeed-content">
+              <div class="text-bold-11 text-white mb-2">
+                EXTRALIGA: BRNO – PRAHA 24:15. KAPITÁNKA HÁJKOVÁ SE 7 KOŠI.
+              </div>
+              <div class="text-white-85 text-bold-10 d-flex gap-2">
+                <span>♥ 1 248</span>
+                <span>💬 34</span>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="swiper-slide">
+          <a href="#" class="socialFeed-item green">
+            <div class="socialFeed-img">
+              <img
+                srcset="
+                  https://picsum.photos/338/260 1x,
+                  https://picsum.photos/676/520 2x
+                "
+                alt="post"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="socialFeed-content">
+              <div class="text-bold-11 text-white mb-2">
+                EXTRALIGA: BRNO – PRAHA 24:15. KAPITÁNKA HÁJKOVÁ SE 7 KOŠI.
+              </div>
+              <div class="text-white-85 text-bold-10 d-flex gap-2">
+                <span>♥ 1 248</span>
+                <span>💬 34</span>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="swiper-slide">
+          <a href="#" class="socialFeed-item red">
+            <div class="socialFeed-img">
+              <img
+                srcset="
+                  https://picsum.photos/338/260 1x,
+                  https://picsum.photos/676/520 2x
+                "
+                alt="post"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="socialFeed-content">
+              <div class="text-bold-11 text-white mb-2">
+                EXTRALIGA: BRNO – PRAHA 24:15. KAPITÁNKA HÁJKOVÁ SE 7 KOŠI.
+              </div>
+              <div class="text-white-85 text-bold-10 d-flex gap-2">
+                <span>♥ 1 248</span>
+                <span>💬 34</span>
+              </div>
+            </div>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>

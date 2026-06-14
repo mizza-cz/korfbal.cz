@@ -32,7 +32,7 @@
 				<div class="container">
 					<div class="headerTop__inner">
 						<ul class="headerTop__menu">
-							<li>
+							<li class="d-md-block d-none">
 								<a class="fw-bold hover-outline" href="#">ČESKÝ KORFBALOVÝ SVAZ</a>
 							</li>
 							<li>St 15. 4. 2026</li>
@@ -65,7 +65,9 @@
 						<a href="#" class="header__logo">
 							<img src="images/content/header-logo.png" alt="logo" />
 						</a>
-						<button>burger</button>
+						<button class="c-header__opener js-header__opener iconLink" type="button">
+							<span></span>
+						</button>
 					</div>
 					<div class="headerNav__inner">
 						<a href="#" class="header__logo">
@@ -209,8 +211,682 @@
 		</header>
 		<main class="main" aria-label="Hlavní obsah">
 
-			Hello, World!
+			<div class="pt-4">
+				<div class="container">
+					<form action="" class="filterForm mb-lg-7 mb-6">
+						<div class="filterForm-select w-sm-auto w-100">
+							<select class="js-select js-selectSubmit" id="filterCategory">
+								<option>Muži</option>
+								<option>Ženy</option>
+							</select>
+						</div>
+						<div class="filterForm-select w-sm-auto w-100">
+							<select class="js-select js-selectSubmit" id="filterLeague">
+								<option>EXTRALIGA</option>
+								<option>1. liga</option>
+								<option>dorost</option>
+								<option>Mladší žáci</option>
+								<option>Přípravka</option>
+							</select>
+						</div>
+					</form>
 
+					<a href="#" class="d-block mb-lg-10 mb-6">
+						<img class="w-100 object-fit-cover" src="images/content/pub-hero.png" alt="pub" />
+					</a>
+				</div>
+			</div>
+
+			<section class="heroBoard">
+				<div class="heroBoard-grid">
+					<a href="#" class="heroBoard-main">
+						<div class="tag-accent">extraliga</div>
+						<img srcset="
+          https://picsum.photos/708/598   1x,
+          https://picsum.photos/1416/1196 2x
+        " alt="post" loading="lazy" />
+						<div class="heroBoard-main__content">
+							<h1 class="h3 text-white mb-3">
+								Nominace na ME 2026: Kratochvíl povolal čtyři nováčky
+							</h1>
+							<p class="text-base-16 text-paper-2">
+								Lídr Extraligy si po dvou těsných výhrách dovolil nečekanou
+								demonstraci síly. Brno přehrálo v hale Vodova obhájce titulu o devět
+								košů a v posledním kole základní části se posunulo na první místo
+								tabulky.
+							</p>
+						</div>
+					</a>
+					<div class="heroBoard-side">
+						<div class="heroBoard-posts">
+							<a href="#" class="heroBoard__post">
+								<div class="heroBoard__post-content">
+									<div class="tag-accent mb-2">extraliga</div>
+									<div class="h6">
+										Brno smetlo Prahu o devět košů a posunulo se do čela tabulky
+									</div>
+								</div>
+								<div class="heroBoard__post-img">
+									<img srcset="
+                https://picsum.photos/165/120 1x,
+                https://picsum.photos/330/240 2x
+              " alt="post" loading="lazy" />
+								</div>
+							</a>
+							<a href="#" class="heroBoard__post">
+								<div class="heroBoard__post-content">
+									<div class="tag-accent mb-2">extraliga</div>
+									<div class="h6">
+										Brno smetlo Prahu o devět košů a posunulo se do čela tabulky
+									</div>
+								</div>
+								<div class="heroBoard__post-img">
+									<img srcset="
+                https://picsum.photos/165/120 1x,
+                https://picsum.photos/330/240 2x
+              " alt="post" loading="lazy" />
+								</div>
+							</a>
+							<a href="#" class="heroBoard__post">
+								<div class="heroBoard__post-content">
+									<div class="tag-accent mb-2">extraliga</div>
+									<div class="h6">
+										Brno smetlo Prahu o devět košů a posunulo se do čela tabulky
+									</div>
+								</div>
+								<div class="heroBoard__post-img">
+									<img srcset="
+                https://picsum.photos/165/120 1x,
+                https://picsum.photos/330/240 2x
+              " alt="post" loading="lazy" />
+								</div>
+							</a>
+							<a href="#" class="heroBoard__post">
+								<div class="heroBoard__post-content">
+									<div class="tag-accent mb-2">extraliga</div>
+									<div class="h6">
+										Brno smetlo Prahu o devět košů a posunulo se do čela tabulky
+									</div>
+								</div>
+								<div class="heroBoard__post-img">
+									<img srcset="
+                https://picsum.photos/165/120 1x,
+                https://picsum.photos/330/240 2x
+              " alt="post" loading="lazy" />
+								</div>
+							</a>
+							<a href="#" class="button-primary mx-auto mt-auto">
+								Další články
+								<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z" fill="#fff" />
+								</svg>
+							</a>
+						</div>
+						<div class="heroBoard-matches">
+							<div class="matchCard">
+								<div class="d-flex align-items-center justify-content-between gap-4 text-bold-10 text-uppercase mb-4">
+									<div class="text-black-60">24. KOLO</div>
+									<div class="text-bold-10 text-black-50 text-uppercase">
+										ODEHRÁNO
+									</div>
+								</div>
+								<div class="d-flex align-items-center justify-content-between gap-4 mb-2">
+									<div class="d-flex align-items-center gap-4">
+										<img class="object-fit-contain" width="34" height="34" src="images/content/guardians.png" alt="club" />
+										<div class="text-bold-15">KK Brno</div>
+									</div>
+									<div class="h4">24</div>
+								</div>
+								<div class="d-flex align-items-center justify-content-between gap-4">
+									<div class="d-flex align-items-center gap-4">
+										<img class="object-fit-contain" width="34" height="34" src="images/content/guardians.png" alt="club" />
+										<div class="text-bold-15">SK Praha</div>
+									</div>
+									<div class="h4">15</div>
+								</div>
+								<div class="matchCard__bottom">
+									<div class="text-bold-10 text-black-60 text-uppercase">
+										12.4. · 17:00
+									</div>
+									<a class="link text-accent" href="#">
+										DETAIL
+										<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z" fill="#d7141a" />
+										</svg></a>
+								</div>
+							</div>
+							<div class="matchCard matchCard--live">
+								<div class="d-flex align-items-center justify-content-between gap-4 text-bold-10 text-uppercase mb-4">
+									<div class="text-black-60">24. KOLO</div>
+									<div class="dotDecore-accent text-accent">LIVE · 32'</div>
+								</div>
+								<div class="d-flex align-items-center justify-content-between gap-4 mb-2">
+									<div class="d-flex align-items-center gap-4">
+										<img class="object-fit-contain" width="34" height="34" src="images/content/guardians.png" alt="club" />
+										<div class="text-bold-15">KK Brno</div>
+									</div>
+									<div class="h4 text-accent">24</div>
+								</div>
+								<div class="d-flex align-items-center justify-content-between gap-4">
+									<div class="d-flex align-items-center gap-4">
+										<img class="object-fit-contain" width="34" height="34" src="images/content/guardians.png" alt="club" />
+										<div class="text-bold-15">SK Praha</div>
+									</div>
+									<div class="h4 text-accent">15</div>
+								</div>
+								<div class="matchCard__bottom">
+									<div class="text-bold-10 text-black-60 text-uppercase">
+										2. POLOČAS
+									</div>
+									<a class="link text-accent" href="#">
+										DETAIL
+										<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z" fill="#d7141a" />
+										</svg></a>
+								</div>
+							</div>
+							<div class="matchCard matchCard--future">
+								<div class="d-flex align-items-center justify-content-between gap-4 text-bold-10 text-uppercase mb-4">
+									<div class="text-black-60">24. KOLO</div>
+									<div class="text-bold-10 text-black-50 text-uppercase">
+										SO 18.4.
+									</div>
+								</div>
+								<div class="d-flex align-items-center justify-content-between gap-4 mb-2">
+									<div class="d-flex align-items-center gap-4">
+										<img class="object-fit-contain" width="34" height="34" src="images/content/guardians.png" alt="club" />
+										<div class="text-bold-15">KK Brno</div>
+									</div>
+								</div>
+								<div class="d-flex align-items-center justify-content-between gap-4">
+									<div class="d-flex align-items-center gap-4">
+										<img class="object-fit-contain" width="34" height="34" src="images/content/guardians.png" alt="club" />
+										<div class="text-bold-15">SK Praha</div>
+									</div>
+								</div>
+								<div class="matchCard__bottom">
+									<div class="text-bold-10 text-black-60 text-uppercase">
+										VÝKOP 17:00
+									</div>
+									<a class="link text-accent" href="#">
+										DETAIL
+										<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z" fill="#d7141a" />
+										</svg></a>
+								</div>
+							</div>
+							<a href="#" class="button-primary mt-2 mx-auto">
+								Další zápasy
+								<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z" fill="#fff" />
+								</svg>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="socialFeed">
+				<div class="container">
+					<div class="dotDecore-accent text-uppercase text-accent text-bold-11 mb-lg-8 mb-6">
+						INSTAGRAM
+					</div>
+					<div class="d-flex align-items-center justify-content-between mb-8 flex-wrap gap-4">
+						<h3 class="h2 text-black-primary">
+							<span class="text-accent">@</span>korfbalcz
+						</h3>
+
+						<a href="#" class="button-primary">
+							SLEDOVAT NA IG
+							<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z" fill="#fff" />
+							</svg>
+						</a>
+					</div>
+					<div class="socialFeedSlider swiper">
+						<ul role="list" class="swiper-wrapper infinite-scroll-swiper">
+							<li class="swiper-slide">
+								<a href="#" class="socialFeed-item blue">
+									<div class="socialFeed-img">
+										<img srcset="
+                  https://picsum.photos/338/260 1x,
+                  https://picsum.photos/676/520 2x
+                " alt="post" loading="lazy" />
+									</div>
+
+									<div class="socialFeed-content">
+										<div class="text-bold-11 text-white mb-2">
+											EXTRALIGA: BRNO – PRAHA 24:15. KAPITÁNKA HÁJKOVÁ SE 7 KOŠI.
+										</div>
+										<div class="text-white-85 text-bold-10 d-flex gap-2">
+											<span>♥ 1 248</span>
+											<span>💬 34</span>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li class="swiper-slide">
+								<a href="#" class="socialFeed-item green">
+									<div class="socialFeed-img">
+										<img srcset="
+                  https://picsum.photos/338/260 1x,
+                  https://picsum.photos/676/520 2x
+                " alt="post" loading="lazy" />
+									</div>
+
+									<div class="socialFeed-content">
+										<div class="text-bold-11 text-white mb-2">
+											EXTRALIGA: BRNO – PRAHA 24:15. KAPITÁNKA HÁJKOVÁ SE 7 KOŠI.
+										</div>
+										<div class="text-white-85 text-bold-10 d-flex gap-2">
+											<span>♥ 1 248</span>
+											<span>💬 34</span>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li class="swiper-slide">
+								<a href="#" class="socialFeed-item red">
+									<div class="socialFeed-img">
+										<img srcset="
+                  https://picsum.photos/338/260 1x,
+                  https://picsum.photos/676/520 2x
+                " alt="post" loading="lazy" />
+									</div>
+
+									<div class="socialFeed-content">
+										<div class="text-bold-11 text-white mb-2">
+											EXTRALIGA: BRNO – PRAHA 24:15. KAPITÁNKA HÁJKOVÁ SE 7 KOŠI.
+										</div>
+										<div class="text-white-85 text-bold-10 d-flex gap-2">
+											<span>♥ 1 248</span>
+											<span>💬 34</span>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li class="swiper-slide">
+								<a href="#" class="socialFeed-item blue">
+									<div class="socialFeed-img">
+										<img srcset="
+                  https://picsum.photos/338/260 1x,
+                  https://picsum.photos/676/520 2x
+                " alt="post" loading="lazy" />
+									</div>
+
+									<div class="socialFeed-content">
+										<div class="text-bold-11 text-white mb-2">
+											EXTRALIGA: BRNO – PRAHA 24:15. KAPITÁNKA HÁJKOVÁ SE 7 KOŠI.
+										</div>
+										<div class="text-white-85 text-bold-10 d-flex gap-2">
+											<span>♥ 1 248</span>
+											<span>💬 34</span>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li class="swiper-slide">
+								<a href="#" class="socialFeed-item green">
+									<div class="socialFeed-img">
+										<img srcset="
+                  https://picsum.photos/338/260 1x,
+                  https://picsum.photos/676/520 2x
+                " alt="post" loading="lazy" />
+									</div>
+
+									<div class="socialFeed-content">
+										<div class="text-bold-11 text-white mb-2">
+											EXTRALIGA: BRNO – PRAHA 24:15. KAPITÁNKA HÁJKOVÁ SE 7 KOŠI.
+										</div>
+										<div class="text-white-85 text-bold-10 d-flex gap-2">
+											<span>♥ 1 248</span>
+											<span>💬 34</span>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li class="swiper-slide">
+								<a href="#" class="socialFeed-item red">
+									<div class="socialFeed-img">
+										<img srcset="
+                  https://picsum.photos/338/260 1x,
+                  https://picsum.photos/676/520 2x
+                " alt="post" loading="lazy" />
+									</div>
+
+									<div class="socialFeed-content">
+										<div class="text-bold-11 text-white mb-2">
+											EXTRALIGA: BRNO – PRAHA 24:15. KAPITÁNKA HÁJKOVÁ SE 7 KOŠI.
+										</div>
+										<div class="text-white-85 text-bold-10 d-flex gap-2">
+											<span>♥ 1 248</span>
+											<span>💬 34</span>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li class="swiper-slide">
+								<a href="#" class="socialFeed-item blue">
+									<div class="socialFeed-img">
+										<img srcset="
+                  https://picsum.photos/338/260 1x,
+                  https://picsum.photos/676/520 2x
+                " alt="post" loading="lazy" />
+									</div>
+
+									<div class="socialFeed-content">
+										<div class="text-bold-11 text-white mb-2">
+											EXTRALIGA: BRNO – PRAHA 24:15. KAPITÁNKA HÁJKOVÁ SE 7 KOŠI.
+										</div>
+										<div class="text-white-85 text-bold-10 d-flex gap-2">
+											<span>♥ 1 248</span>
+											<span>💬 34</span>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li class="swiper-slide">
+								<a href="#" class="socialFeed-item green">
+									<div class="socialFeed-img">
+										<img srcset="
+                  https://picsum.photos/338/260 1x,
+                  https://picsum.photos/676/520 2x
+                " alt="post" loading="lazy" />
+									</div>
+
+									<div class="socialFeed-content">
+										<div class="text-bold-11 text-white mb-2">
+											EXTRALIGA: BRNO – PRAHA 24:15. KAPITÁNKA HÁJKOVÁ SE 7 KOŠI.
+										</div>
+										<div class="text-white-85 text-bold-10 d-flex gap-2">
+											<span>♥ 1 248</span>
+											<span>💬 34</span>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li class="swiper-slide">
+								<a href="#" class="socialFeed-item red">
+									<div class="socialFeed-img">
+										<img srcset="
+                  https://picsum.photos/338/260 1x,
+                  https://picsum.photos/676/520 2x
+                " alt="post" loading="lazy" />
+									</div>
+
+									<div class="socialFeed-content">
+										<div class="text-bold-11 text-white mb-2">
+											EXTRALIGA: BRNO – PRAHA 24:15. KAPITÁNKA HÁJKOVÁ SE 7 KOŠI.
+										</div>
+										<div class="text-white-85 text-bold-10 d-flex gap-2">
+											<span>♥ 1 248</span>
+											<span>💬 34</span>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li class="swiper-slide">
+								<a href="#" class="socialFeed-item blue">
+									<div class="socialFeed-img">
+										<img srcset="
+                  https://picsum.photos/338/260 1x,
+                  https://picsum.photos/676/520 2x
+                " alt="post" loading="lazy" />
+									</div>
+
+									<div class="socialFeed-content">
+										<div class="text-bold-11 text-white mb-2">
+											EXTRALIGA: BRNO – PRAHA 24:15. KAPITÁNKA HÁJKOVÁ SE 7 KOŠI.
+										</div>
+										<div class="text-white-85 text-bold-10 d-flex gap-2">
+											<span>♥ 1 248</span>
+											<span>💬 34</span>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li class="swiper-slide">
+								<a href="#" class="socialFeed-item green">
+									<div class="socialFeed-img">
+										<img srcset="
+                  https://picsum.photos/338/260 1x,
+                  https://picsum.photos/676/520 2x
+                " alt="post" loading="lazy" />
+									</div>
+
+									<div class="socialFeed-content">
+										<div class="text-bold-11 text-white mb-2">
+											EXTRALIGA: BRNO – PRAHA 24:15. KAPITÁNKA HÁJKOVÁ SE 7 KOŠI.
+										</div>
+										<div class="text-white-85 text-bold-10 d-flex gap-2">
+											<span>♥ 1 248</span>
+											<span>💬 34</span>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li class="swiper-slide">
+								<a href="#" class="socialFeed-item red">
+									<div class="socialFeed-img">
+										<img srcset="
+                  https://picsum.photos/338/260 1x,
+                  https://picsum.photos/676/520 2x
+                " alt="post" loading="lazy" />
+									</div>
+
+									<div class="socialFeed-content">
+										<div class="text-bold-11 text-white mb-2">
+											EXTRALIGA: BRNO – PRAHA 24:15. KAPITÁNKA HÁJKOVÁ SE 7 KOŠI.
+										</div>
+										<div class="text-white-85 text-bold-10 d-flex gap-2">
+											<span>♥ 1 248</span>
+											<span>💬 34</span>
+										</div>
+									</div>
+								</a>
+							</li>
+						</ul>
+						<div class="swiper-pagination"></div>
+					</div>
+				</div>
+			</section>
+			<section class="projects">
+				<div class="container">
+					<div class="dotDecore-accent text-uppercase text-accent text-bold-11 mb-lg-8 mb-6">
+						PROJEKTY SVAZU
+					</div>
+					<h4 class="h2 mb-8">Korfbal je <span class="text-accent">všude</span>.</h4>
+					<div class="projects__grid">
+						<a class="projectItem" href="#">
+							<div class="text-uppercase text-white">
+								<div class="text-bold-11 mb-lg-8 mb-4">Pro školy</div>
+								<h2 class="h1">Školní korfbal</h2>
+							</div>
+							<div class="d-flex align-items-center justify-content-between">
+								<p class="text-base-13 text-white">
+									Metodika a turnaje pro 1.–9. třídy
+								</p>
+
+								<span class="projectItem__arrow">
+									<img src="images/ico/arrow-right.svg" loading="lazy" alt="arrow" />
+								</span>
+							</div>
+							<span class="projectItem__number">01</span>
+						</a>
+						<a class="projectItem" href="#">
+							<div class="text-uppercase text-white">
+								<div class="text-bold-11 mb-2">Národní tým</div>
+								<h3 class="h3">Reprezentace</h3>
+							</div>
+							<div class="d-flex align-items-center justify-content-between">
+								<p class="text-base-13 text-white">
+									ME 2026 / kvalifikace / nominace
+								</p>
+
+								<span class="projectItem__arrow">
+									<img src="images/ico/arrow-right.svg" loading="lazy" alt="arrow" />
+								</span>
+							</div>
+							<span class="projectItem__number">02</span>
+						</a>
+						<a class="projectItem" href="#">
+							<div class="text-uppercase">
+								<div class="text-bold-11 mb-2">PROFI ROZVOJ</div>
+								<h3 class="h3">Trenérský web</h3>
+							</div>
+							<div class="d-flex align-items-center justify-content-between">
+								<p class="text-base-13">Drily, taktika, video archiv</p>
+
+								<span class="projectItem__arrow">
+									<img src="images/ico/arrow-right.svg" loading="lazy" alt="arrow" />
+								</span>
+							</div>
+							<span class="projectItem__number">03</span>
+						</a>
+						<a class="projectItem" href="#">
+							<div class="text-uppercase">
+								<div class="text-bold-11 mb-2">Vzdělávání</div>
+								<h3 class="h3">Korfbalová akademie</h3>
+							</div>
+							<div class="d-flex align-items-center justify-content-between">
+								<p class="text-base-13">Licence, mentoring, talenty</p>
+
+								<span class="projectItem__arrow">
+									<img src="images/ico/arrow-right.svg" loading="lazy" alt="arrow" />
+								</span>
+							</div>
+							<span class="projectItem__number">04</span>
+						</a>
+						<a class="projectItem" href="#">
+							<div class="text-uppercase text-white">
+								<div class="text-bold-11 mb-2">HISTORIE</div>
+								<h3 class="h3">Síň slávy</h3>
+							</div>
+							<div class="d-flex align-items-center justify-content-between">
+								<p class="text-base-13 text-white">Legendy českého korfbalu</p>
+
+								<span class="projectItem__arrow">
+									<img src="images/ico/arrow-right.svg" loading="lazy" alt="arrow" />
+								</span>
+							</div>
+							<span class="projectItem__number">05</span>
+						</a>
+						<a class="projectItem" href="#">
+							<div class="text-uppercase text-white">
+								<div class="text-bold-11 mb-2">LÉTO 2026</div>
+								<h3 class="h3">Beach korfbal</h3>
+							</div>
+							<div class="d-flex align-items-center justify-content-between">
+								<p class="text-base-13 text-white">Série turnajů na písku</p>
+
+								<span class="projectItem__arrow">
+									<img src="images/ico/arrow-right.svg" loading="lazy" alt="arrow" />
+								</span>
+							</div>
+							<span class="projectItem__number">06</span>
+						</a>
+						<a class="projectItem" href="#">
+							<div class="text-uppercase">
+								<div class="text-bold-11 mb-2">Brzy spustíme</div>
+								<h3 class="h3">ISKO</h3>
+							</div>
+							<div class="d-flex align-items-center justify-content-between">
+								<p class="text-base-13 text-white">
+									Informační systém českého korfbalu
+								</p>
+
+								<span class="projectItem__arrow">
+									<img src="images/ico/arrow-right.svg" loading="lazy" alt="arrow" />
+								</span>
+							</div>
+							<span class="projectItem__number">07</span>
+						</a>
+					</div>
+				</div>
+			</section>
+			<section class="partners-section">
+				<div class="container">
+					<div class="dotDecore-accent text-uppercase text-accent text-bold-11 mb-lg-8 mb-6">
+						PARTNEŘI
+					</div>
+					<div class="d-flex align-items-end gap-6 flex-wrap justify-content-between mb-6">
+						<h6 class="h2">Děkujeme, že stojíte při nás.</h6>
+						<a href="#" class="link text-primary-2">
+							STAŇTE SE PARTNEREM
+
+							<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z" fill="#11427a" />
+							</svg>
+						</a>
+					</div>
+					<div class="swiper partnersSlider">
+						<ul role="list" class="swiper-wrapper infinite-scroll-swiper align-items-center">
+							<li class="swiper-slide">
+								<a href="#" class="partnersSlider__link">
+									<img src="images/content/partners/p-1.png" width="190" height="88" loading="lazy" alt="partner" />
+								</a>
+							</li>
+							<li class="swiper-slide">
+								<a href="#" class="partnersSlider__link">
+									<img src="images/content/partners/p-6.png" width="190" height="88" loading="lazy" alt="partner" />
+								</a>
+							</li>
+							<li class="swiper-slide">
+								<a href="#" class="partnersSlider__link">
+									<img src="images/content/partners/p-2.png" width="190" height="88" loading="lazy" alt="partner" />
+								</a>
+							</li>
+
+							<li class="swiper-slide">
+								<a href="#" class="partnersSlider__link">
+									<img src="images/content/partners/p-3.png" width="190" height="88" loading="lazy" alt="partner" />
+								</a>
+							</li>
+
+							<li class="swiper-slide">
+								<a href="#" class="partnersSlider__link">
+									<img src="images/content/partners/p-4.png" width="190" height="88" loading="lazy" alt="partner" />
+								</a>
+							</li>
+
+							<li class="swiper-slide">
+								<a href="#" class="partnersSlider__link">
+									<img src="images/content/partners/p-5.png" width="190" height="88" loading="lazy" alt="partner" />
+								</a>
+							</li>
+
+							<li class="swiper-slide">
+								<a href="#" class="partnersSlider__link">
+									<img src="images/content/partners/p-1.png" width="190" height="88" loading="lazy" alt="partner" />
+								</a>
+							</li>
+
+							<li class="swiper-slide">
+								<a href="#" class="partnersSlider__link">
+									<img src="images/content/partners/p-2.png" width="190" height="88" loading="lazy" alt="partner" />
+								</a>
+							</li>
+
+							<li class="swiper-slide">
+								<a href="#" class="partnersSlider__link">
+									<img src="images/content/partners/p-3.png" width="190" height="88" loading="lazy" alt="partner" />
+								</a>
+							</li>
+
+							<li class="swiper-slide">
+								<a href="#" class="partnersSlider__link">
+									<img src="images/content/partners/p-4.png" width="190" height="88" loading="lazy" alt="partner" />
+								</a>
+							</li>
+
+							<li class="swiper-slide">
+								<a href="#" class="partnersSlider__link">
+									<img src="images/content/partners/p-5.png" width="190" height="88" loading="lazy" alt="partner" />
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
 		</main>
 		<footer class="footer pt-lg-20 pt-10">
 			<div class="container">

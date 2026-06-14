@@ -1,0 +1,22 @@
+.resultItem {
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  color: var(--color-white);
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+.win {
+  background: var(--color-green);
+}
+
+.loss {
+  background: var(--color-accent);
+}
+.draw {
+  background: var(--color-white);
+  color: var(--color-primary);
+}

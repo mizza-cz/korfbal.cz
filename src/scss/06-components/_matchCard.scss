@@ -17,5 +17,7 @@
 
 .matchCard--live {
   border: 1px solid var(--color-accent);
-  border-top-width: 3px;
+}
+.matchCard--future {
+  border: transparent;
 }

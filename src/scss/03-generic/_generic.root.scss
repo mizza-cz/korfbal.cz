@@ -3,29 +3,41 @@
   --font-display: "Anton", sans-serif;
 
   --color-white: #fff;
+  --color-white-6: rgba(255, 255, 255, 0.06);
   --color-white-10: rgba(255, 255, 255, 0.1);
+  --color-white-20: rgba(255, 255, 255, 0.2);
+  --color-white-30: rgba(255, 255, 255, 0.3);
   --color-white-60: rgba(255, 255, 255, 0.6);
   --color-white-70: rgba(255, 255, 255, 0.7);
   --color-white-75: rgba(255, 255, 255, 0.75);
   --color-white-80: rgba(255, 255, 255, 0.8);
-  --color-white-6: rgba(255, 255, 255, 0.06);
+  --color-white-85: rgba(255, 255, 255, 0.85);
+
   --color-black: #000;
   --color-black-12: rgba(0, 0, 0, 0.12);
+  --color-black-25: rgba(0, 0, 0, 0.25);
   --color-black-50: rgba(0, 0, 0, 0.5);
   --color-black-60: rgba(0, 0, 0, 0.6);
 
   --color-primary: #1b2046;
   --color-primary-2: #11427a;
+  --color-primary-30: rgba(27, 32, 70, 0.3);
+  --color-primary-40: rgba(27, 32, 70, 0.4);
   --color-primary-50: rgba(27, 32, 70, 0.5);
   --color-primary-60: rgba(27, 32, 70, 0.6);
   --color-primary-70: rgba(27, 32, 70, 0.7);
   --color-primary-75: rgba(27, 32, 70, 0.75);
   --color-primary-80: rgba(27, 32, 70, 0.8);
+  --color-primary-85: rgba(27, 32, 70, 0.85);
+
   --color-accent: #d7141a;
+  --color-accent-30: rgba(215, 20, 26, 0.3);
   --color-accent-2: #a40e13;
 
   --color-line: #0b0d1c;
   --color-paper: #f6f9fc;
   --color-paper-2: #eef1f4;
   --color-paper-2_60: rgba(238, 241, 244, 0.6);
+
+  --color-green: #298a52;
 }

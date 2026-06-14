@@ -4,6 +4,7 @@
   font-size: 10.5px;
   line-height: 13px;
   text-transform: uppercase;
+  width: fit-content;
 }
 
 .tag-accent {
@@ -17,4 +18,9 @@
 .tag-primary-2 {
   background: var(--color-primary-2);
   color: var(--color-white);
+}
+
+.tag-white {
+  color: var(--color-accent);
+  background: var(--color-white);
 }

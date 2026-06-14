@@ -16,7 +16,7 @@
     $(document).on("click", function (e) {
       if (
         $body.hasClass("is-nav-open") &&
-        !$(e.target).closest(".menu, .js-header__opener").length
+        !$(e.target).closest(".headerNav__inner, .js-header__opener").length
       ) {
         $opener.removeClass("is-open");
         $body.removeClass("is-nav-open");
