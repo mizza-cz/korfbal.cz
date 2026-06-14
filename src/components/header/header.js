@@ -6,6 +6,12 @@
   function bindHamburger() {
     const $body = $("body");
     const $opener = $(".js-header__opener");
+    const $close = $(".js-header__close");
+
+    function closeMenu() {
+      $opener.removeClass("is-open");
+      $body.removeClass("is-nav-open");
+    }
 
     $opener.on("click", function (e) {
       e.stopPropagation();
@@ -13,13 +19,17 @@
       $body.toggleClass("is-nav-open");
     });
 
+    $close.on("click", function (e) {
+      e.stopPropagation();
+      closeMenu();
+    });
+
     $(document).on("click", function (e) {
       if (
         $body.hasClass("is-nav-open") &&
         !$(e.target).closest(".headerNav__inner, .js-header__opener").length
       ) {
-        $opener.removeClass("is-open");
-        $body.removeClass("is-nav-open");
+        closeMenu();
       }
     });
   }

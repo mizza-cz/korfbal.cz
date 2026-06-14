@@ -10,7 +10,9 @@
     width: 90px;
     height: 90px;
     min-width: 90px;
-
+    @include media-breakpoint-down(sm) {
+      display: none;
+    }
     @include media-breakpoint-up(lg) {
       width: 160px;
       height: 160px;
