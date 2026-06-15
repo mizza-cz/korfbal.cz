@@ -1,6 +1,20 @@
 .h1,
-.o-content h1 {
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.o-content h1,
+.o-content h3,
+.o-content h4,
+.o-content h5,
+.o-content h6 {
   font-family: var(--font-display);
+  font-weight: 400;
+}
+
+.h1,
+.o-content h1 {
   font-size: 52px;
   line-height: 72px;
   text-transform: uppercase;
@@ -11,51 +25,48 @@
   }
 }
 
-.h2 {
-  font-family: var(--font-display);
+.h2,
+.o-content h2 {
   font-size: 36px;
-  line-height: 125%;
   line-height: 125%;
   letter-spacing: -0.01em;
   text-transform: uppercase;
+
   @include media-breakpoint-down(lg) {
     font-size: 28px;
-    background-image: linear-gradient();
   }
 }
 
 .h3,
 .o-content h3 {
-  font-family: var(--font-display);
   font-size: 32px;
   line-height: 125%;
   text-transform: uppercase;
   @include media-breakpoint-down(lg) {
     font-size: 24px;
-    line-height: 125%;
   }
 }
+
 .h4,
 .o-content h4 {
-  font-family: var(--font-display);
   font-size: 24px;
   line-height: 125%;
   @include media-breakpoint-down(lg) {
     font-size: 20px;
   }
 }
+
 .h5,
 .o-content h5 {
-  font-family: var(--font-display);
   font-size: 20px;
   line-height: 125%;
   @include media-breakpoint-down(lg) {
     font-size: 18px;
   }
 }
+
 .h6,
 .o-content h6 {
-  font-family: var(--font-display);
   font-size: 18px;
   line-height: 150%;
   @include media-breakpoint-down(lg) {
@@ -122,6 +133,18 @@
 }
 .text-bold-10 {
   font-weight: 700;
+  font-size: 10px;
+  line-height: 125%;
+}
+
+.text-extrabold-13 {
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 125%;
+}
+
+.text-extrabold-10 {
+  font-weight: 800;
   font-size: 10px;
   line-height: 125%;
 }
