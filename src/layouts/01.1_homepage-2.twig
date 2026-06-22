@@ -1,0 +1,38 @@
+{% extends "@components/base/base.twig" %} {% set title = "01.1_homepage-2" %}
+{% block main %}
+
+<div class="pt-4">
+  <div class="container">
+    <form action="" class="filterForm mb-lg-7 mb-6">
+      <div class="filterForm-select w-sm-auto w-100">
+        <select class="js-select js-selectSubmit" id="filterCategory">
+          <option>Muži</option>
+          <option>Ženy</option>
+        </select>
+      </div>
+      <div class="filterForm-select w-sm-auto w-100">
+        <select class="js-select js-selectSubmit" id="filterLeague">
+          <option>EXTRALIGA</option>
+          <option>1. liga</option>
+          <option>dorost</option>
+          <option>Mladší žáci</option>
+          <option>Přípravka</option>
+        </select>
+      </div>
+    </form>
+
+    <a href="#" class="d-block mb-lg-10 mb-6">
+      <img
+        class="w-100 object-fit-cover"
+        src="images/content/pub-hero.png"
+        alt="pub"
+      />
+    </a>
+  </div>
+</div>
+
+{% include "@components/hero/hero.twig" %} {% include
+"@components/infoBoard/infoBoard.twig" %} {% include
+"@components/socialFeed/socialFeed.twig" %} {% include
+"@components/projects/projects.twig" %} {% include
+"@components/partnersSlider/partnersSlider.twig" %} {% endblock %}
