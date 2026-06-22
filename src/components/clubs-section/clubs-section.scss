@@ -29,7 +29,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("../images/content/club-stats.png");
-
+    height: 100%;
     @include media-breakpoint-down(lg) {
       flex-direction: column;
     }

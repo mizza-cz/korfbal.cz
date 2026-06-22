@@ -28,10 +28,23 @@
 .dotDecore-primary-50::before {
   background: var(--color-primary-50);
 }
-
+.dotDecore-primary-60::before {
+  background: var(--color-primary-60);
+}
+.dotDecore-white-60::before {
+  background: var(--color-white-60);
+}
 .dotDecore-white-70::before {
   background: var(--color-white-70);
 }
 .dotDecore-white::before {
   background: var(--color-white);
+}
+
+.dotDecore-20 {
+  padding-left: 28px;
+  &::before {
+    width: 20px;
+    height: 20px;
+  }
 }
