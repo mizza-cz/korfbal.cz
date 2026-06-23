@@ -79,3 +79,73 @@
     background: var(--color-white);
   }
 }
+
+.infoBoardSlider {
+  position: relative;
+  overflow: visible;
+  .swiper-slide {
+    width: 280px;
+    flex-shrink: 0;
+  }
+  &__arrow {
+    position: absolute;
+    z-index: 3;
+
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--color-primary);
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    transition: all 0.25s ease;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    @include media-breakpoint-down(md) {
+      position: relative;
+
+      top: 0;
+    }
+    svg {
+      width: 20px;
+      height: 18px;
+    }
+    &:hover {
+      background-color: var(--color-white);
+      color: var(--color-primary);
+    }
+  }
+  &__arrow--prev {
+    transform: translateY(-50%) rotate(-180deg);
+    left: -20px;
+    @include media-breakpoint-down(md) {
+      transform: rotate(-180deg);
+      left: 0;
+    }
+  }
+  &__arrow--next {
+    right: -20px;
+    transform: translateY(-50%);
+    @include media-breakpoint-down(md) {
+      transform: none;
+      right: 0;
+    }
+  }
+
+  &__arrow.is-disabled {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  &__arrows {
+    @include media-breakpoint-down(md) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      margin-top: 1rem;
+    }
+  }
+}

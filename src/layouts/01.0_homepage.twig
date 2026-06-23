@@ -1,9 +1,16 @@
 {% extends "@components/base/base.twig" %} {% set title = "01.0_homepage" %} {%
 block main %}
 
-<div class="pt-4">
+<div class="pt-6">
   <div class="container">
-    <form action="" class="filterForm mb-lg-7 mb-6">
+    <a href="#" class="d-block mb-4">
+      <img
+        class="w-100 object-fit-cover"
+        src="images/content/pub-hero.png"
+        alt="pub"
+      />
+    </a>
+    <form action="" class="filterForm mb-4 justify-content-end">
       <div class="filterForm-select w-sm-auto w-100">
         <select class="js-select js-selectSubmit" id="filterCategory">
           <option>Muži</option>
@@ -20,14 +27,6 @@ block main %}
         </select>
       </div>
     </form>
-
-    <a href="#" class="d-block mb-lg-10 mb-6">
-      <img
-        class="w-100 object-fit-cover"
-        src="images/content/pub-hero.png"
-        alt="pub"
-      />
-    </a>
   </div>
 </div>
 
