@@ -118,6 +118,9 @@ a.hover-outline {
 .rounded-circle {
   border-radius: 100%;
 }
+.rounded-99 {
+  border-radius: 99px;
+}
 .object-position-top {
   object-position: top;
 }
@@ -137,6 +140,9 @@ a.hover-outline {
     b {
     background-image: url("../images/ico/down-white.svg");
   }
+}
+.w-fit {
+  width: fit-content;
 }
 
 /*! purgecss end ignore */

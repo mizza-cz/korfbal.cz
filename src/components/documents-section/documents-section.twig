@@ -1,0 +1,180 @@
+<section class="documents-section pt-4 pb-lg-20 pb-10">
+  <div class="container">
+    <a href="#" class="link text-accent mb-4">
+      <svg
+        width="11"
+        height="11"
+        viewBox="0 0 11 11"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g transform="translate(11 0) scale(-1 1)">
+          <path
+            d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z"
+            fill="#d7141a"
+          />
+        </g>
+      </svg>
+      DOKUMENTACE · ČKS
+    </a>
+    <h1 class="h1 mb-4">DOKUMENTY</h1>
+    <div class="text-primary-50 mb-8">128 dokumentů</div>
+    <form action="" class="filterForm mb-8">
+      <div class="filterForm-search">
+        <input
+          class="filterForm-search__input"
+          placeholder="Hledat dokumenty..."
+          type="text"
+        />
+        <button class="filterForm-search__icon">
+          <img
+            src="images/ico/filter-search.svg"
+            width="24"
+            height="24"
+            alt="search"
+            class="object-fit-contain"
+          />
+        </button>
+      </div>
+      <div class="filterForm-select w-sm-auto w-100">
+        <select class="js-select" id="filterClub">
+          <option>DATUM PŘIDÁNÍ</option>
+          <option>2026</option>
+          <option>2025</option>
+          <option>2024</option>
+        </select>
+      </div>
+      <div class="filterForm-select w-sm-auto w-100">
+        <select class="js-select" id="filterCategory">
+          <option>KATEGORIE</option>
+          <option>Květen 2026</option>
+          <option>Červen 2026</option>
+          <option>Červenec 2026</option>
+          <option>Srpen 2026</option>
+          <option>Září 2026</option>
+          <option>Říjen 2026</option>
+          <option>Listopad 2026</option>
+          <option>Prosinec 2026</option>
+          <option>Leden 2026</option>
+          <option>Únor 2026</option>
+          <option>Březen 2026</option>
+        </select>
+      </div>
+    </form>
+    <div class="table-responsive">
+      <table class="tableDark table m-0">
+        <thead>
+          <tr>
+            <th class="">NÁZEV</th>
+            <th style="width: 150px">KATEGORIE</th>
+            <th style="width: 132px">DATUM PŘIDÁNÍ</th>
+            <th style="width: 100px">VELIKOST</th>
+            <th style="width: 120px">AKCE</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for i in 1..12 %}
+          <tr>
+            <td>
+              <a
+                href="#"
+                class="d-flex align-items-center gap-5 hover-outline fw-bold"
+              >
+                <img
+                  class="object-fit-contain"
+                  width="24"
+                  height="24"
+                  src="images/ico/file-text.svg"
+                  alt="photo"
+                />
+                Strategický plán rozvoje 2027
+              </a>
+            </td>
+            <td>
+              <div class="category">Zprávy</div>
+            </td>
+            <td class="text-primary-85">02. 6. 2026</td>
+            <td class="text-primary-50">3.2 MB</td>
+            <td>
+              <div class="d-flex gap-2">
+                <a class="action" href="#"> {% include "@images/eye.svg" %} </a>
+                <a class="action" href="#">
+                  {% include "@images/download-cloud.svg" %}
+                </a>
+                <a class="action" href="#">
+                  {% include "@images/ellipsis.svg" %}
+                </a>
+              </div>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    <nav class="navPagination mt-10" aria-label="Page navigation">
+      <ul class="pagination">
+        <li class="d-flex align-items-center gap-1">
+          <a
+            class="hover-outline d-flex align-items-center gap-2 text-bold-11 text-uppercase"
+            href="#"
+          >
+            <svg
+              width="11"
+              height="11"
+              viewBox="0 0 11 11"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g transform="translate(11 0) scale(-1 1)">
+                <path
+                  d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z"
+                  fill="#1b2046"
+                />
+              </g>
+            </svg>
+          </a>
+        </li>
+
+        <li class="page-item active">
+          <a class="page-link" href="#">1</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">3</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">4</a>
+        </li>
+        <li class="page-item disabled" aria-hidden="true">
+          <span class="page-link">&hellip;</span>
+        </li>
+
+        <li class="page-item">
+          <a class="page-link" href="#">158</a>
+        </li>
+        <li class="d-flex">
+          <a
+            class="hover-outline d-flex align-items-center gap-2 text-bold-11 text-uppercase"
+            href="#"
+          >
+            <svg
+              width="11"
+              height="11"
+              viewBox="0 0 11 11"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z"
+                fill="#1b2046"
+              />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</section>
