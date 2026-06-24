@@ -1,13 +1,11 @@
 .statsLeaders {
-  td {
-    @include media-breakpoint-down(md) {
+  table {
+    td {
       padding-left: 8px;
       padding-right: 8px;
     }
-  }
-  table {
     td:first-child {
-      width: 40px;
+      width: 24px;
       padding-left: 0 !important;
     }
     td:last-child {

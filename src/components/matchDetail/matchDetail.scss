@@ -3,9 +3,7 @@
   background: url("../images/content/playerDetail-bg.png") center / cover
     no-repeat;
   border-bottom: 3px solid var(--color-accent);
-  @include media-breakpoint-down(lg) {
-    // padding: 40px 0;
-  }
+ 
 
   &__live {
     border-radius: 99px;
