@@ -1,0 +1,42 @@
+{% extends "@components/base/base.twig" %} {% set title = "15.0_static" %} {%
+block main %}
+
+<section class="article-section pt-8 pb-lg-20 pb-10">
+  <div class="container">
+    <h1 class="h1 mb-8">Co je korfbal</h1>
+
+    <div class="row g-xxl-16 g-10">
+      <div class="col-lg-8">
+        <div class="o-content"></div>
+      </div>
+      <div class="col-lg-4">
+        <aside>
+          <div class="p-4 px-lg-6 pb-lg-8 bg-white">
+            <div
+              class="dotDecore-accent text-uppercase text-accent text-bold-11 mb-3"
+            >
+              V TÉTO SEKCI
+            </div>
+            <h2 class="h2">O korfbalu</h2>
+            <ul class="aside-menu">
+              <li>
+                <a href="/co-je-korfbal/p10" class="active"> Co je korfbal </a>
+              </li>
+              <li>
+                <a href="/pravidla/p11" class=" "> Pravidla </a>
+              </li>
+              <li>
+                <a href="/historie/p12" class=" "> Historie </a>
+              </li>
+              <li>
+                <a href="/faq-pro-rodice/p13" class=""> FAQ pro rodiče </a>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include "@components/partnersSlider/partnersSlider.twig" %} {% endblock %}
