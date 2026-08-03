@@ -26,7 +26,7 @@
       padding: 0 24px;
     }
     @include media-breakpoint-down(md) {
-      padding: 0 16px;
+      padding: 0;
       grid-template-columns: 1fr;
     }
   }
@@ -99,10 +99,7 @@
   gap: 8px;
 
   @include media-breakpoint-up(xxl) {
-    padding-left: 32px;
-  }
-  @include media-breakpoint-up(xl) {
-    padding-right: 32px;
+    padding: 0 32px;
   }
 }
 
