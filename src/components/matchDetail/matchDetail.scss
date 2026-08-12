@@ -3,7 +3,6 @@
   background: url("../images/content/playerDetail-bg.png") center / cover
     no-repeat;
   border-bottom: 3px solid var(--color-accent);
- 
 
   &__live {
     border-radius: 99px;
@@ -27,7 +26,7 @@
     text-decoration: underline;
     text-decoration-color: transparent;
     background: transparent;
-    border-radius: 99px;
+    border-radius: 8px;
     border: none;
     cursor: pointer;
     padding: 16px 24px;
