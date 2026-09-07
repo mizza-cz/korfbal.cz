@@ -1,0 +1,10 @@
+.competitionCard {
+  background-color: var(--color-white);
+  border: 1px solid rgba(#0b0d1c29, 0.16);
+  border-radius: 6px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}

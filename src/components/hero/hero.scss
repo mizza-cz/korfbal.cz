@@ -3,10 +3,11 @@
   --large: 50.28%;
   --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
 
-  display: flex;
-  width: 100%;
-  height: clamp(420px, 42vw, 610px);
-  overflow: hidden;
+  &__inner {
+    display: flex;
+    width: 100%;
+    height: clamp(420px, 42vw, 610px);
+  }
 }
 
 .hero-card {
@@ -46,7 +47,7 @@
   }
 }
 
-.hero:hover .hero-card {
+.hero__inner:hover .hero-card {
   flex-basis: var(--small);
 
   .tag-accent {
@@ -75,7 +76,7 @@
   }
 }
 
-.hero:hover .hero-card.is-active:not(:hover) {
+.hero__inner:hover .hero-card.is-active:not(:hover) {
   .hero-card__overlay {
     padding-left: 16px;
     padding-right: 16px;
@@ -151,14 +152,14 @@
 }
 
 @include media-breakpoint-down(lg) {
-  .hero {
+  .hero__inner{
     height: auto;
     flex-direction: column;
   }
 
   .hero-card,
   .hero-card.is-active,
-  .hero:hover .hero-card,
+  .hero__inner:hover .hero-card,
   .hero .hero-card:hover {
     flex: none;
     height: 360px;
@@ -166,7 +167,7 @@
 
   .hero-card .tag-accent,
   .hero-card.is-active .tag-accent,
-  .hero:hover .hero-card .tag-accent,
+  .hero__inner:hover .hero-card .tag-accent,
   .hero .hero-card:hover .tag-accent {
     left: 16px;
   }
@@ -174,14 +175,14 @@
   .hero-card__overlay,
   .hero-card.is-active .hero-card__overlay,
   .hero-card:hover .hero-card__overlay,
-  .hero:hover .hero-card.is-active:not(:hover) .hero-card__overlay {
+  .hero__inner:hover .hero-card.is-active:not(:hover) .hero-card__overlay {
     padding: 24px 16px;
   }
 
   .hero-card__excerpt,
   .hero-card.is-active .hero-card__excerpt,
   .hero .hero-card:hover .hero-card__excerpt,
-  .hero:hover .hero-card.is-active:not(:hover) .hero-card__excerpt {
+  .hero__inner:hover .hero-card.is-active:not(:hover) .hero-card__excerpt {
     grid-template-rows: 1fr;
     margin-top: 14px;
     opacity: 1;

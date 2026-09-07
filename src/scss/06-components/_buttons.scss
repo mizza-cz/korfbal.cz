@@ -64,3 +64,15 @@
     }
   }
 }
+
+.button-papper {
+  background-color: var(--color-paper-2);
+  padding: 16px 24px;
+  font-size: 13px;
+  color: var(--color-primary);
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  &:hover {
+    border: 1px solid var(--color-primary);
+  }
+}

@@ -1,0 +1,760 @@
+<section class="players-section pt-4 pb-lg-20 pb-10">
+  <div class="container">
+    <a href="#" class="link text-accent mb-4">
+      <svg
+        width="11"
+        height="11"
+        viewBox="0 0 11 11"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g transform="translate(11 0) scale(-1 1)">
+          <path
+            d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z"
+            fill="#d7141a"
+          />
+        </g>
+      </svg>
+      KLUBY · HRÁČI
+    </a>
+    <h1 class="h1 mb-4">VÝPIS HRÁČŮ</h1>
+    <div class="text-primary-50 mb-8">
+      5 240 registrovaných hráčů · sezóna 2025/26
+    </div>
+    <form action="" class="filterForm mb-8">
+      <div class="filterForm-search">
+        <input
+          class="filterForm-search__input"
+          placeholder="HLEDAT JMÉNO NEBO PŘÍJMENÍ…"
+          type="text"
+        />
+        <button class="filterForm-search__icon">
+          <img
+            src="images/ico/filter-search.svg"
+            width="24"
+            height="24"
+            alt="search"
+            class="object-fit-contain"
+          />
+        </button>
+      </div>
+      <div class="filterForm-select w-sm-auto w-100">
+        <div class="text-bold-11 text-primary-50 text-uppercase mb-1">KLUB</div>
+        <select class="js-select" id="filterClub">
+          <option>VŠECHNY</option>
+          <option>KK Olomouc</option>
+          <option>KK Plzeň</option>
+          <option>KK Brno</option>
+        </select>
+      </div>
+
+      <div class="filterForm-select w-sm-auto w-100">
+        <div class="text-bold-11 text-primary-50 text-uppercase mb-1">
+          Kategorie
+        </div>
+        <select class="js-select" id="filterCategory">
+          <option>SMÍŠENÍ</option>
+          <option>Květen 2026</option>
+          <option>Červen 2026</option>
+          <option>Červenec 2026</option>
+          <option>Srpen 2026</option>
+          <option>Září 2026</option>
+          <option>Říjen 2026</option>
+          <option>Listopad 2026</option>
+          <option>Prosinec 2026</option>
+          <option>Leden 2026</option>
+          <option>Únor 2026</option>
+          <option>Březen 2026</option>
+        </select>
+      </div>
+    </form>
+
+    <div class="table-responsive">
+      <table class="tableDark table m-0">
+        <thead>
+          <tr>
+            <th style="width: 40px">#</th>
+            <th class="">HRÁČ</th>
+            <th style="width: 200px">KLUB</th>
+            <th style="width: 100px">VĚK</th>
+            <th style="width: 80px">PROFIL</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="font-display text-base-18">1</td>
+            <td>
+              <div class="d-flex align-items-center gap-3">
+                <img
+                  class="object-fit-cover rounded-circle"
+                  width="36"
+                  height="36"
+                  src="images/content/ava.png"
+                  alt="photo"
+                />
+                <a class="hover-outline" href="#">
+                  <div class="fw-bold">Tereza Hájková</div>
+                  <div class="text-uppercase text-primary-50 text-bold-10">
+                    &#64;hajkova
+                  </div>
+                </a>
+              </div>
+            </td>
+            <td>
+              <div class="d-flex align-items-center gap-2">
+                <img
+                  class="object-fit-contain rounded-circle"
+                  width="20"
+                  height="20"
+                  src="images/content/team-1.png"
+                  loading="lazy"
+                  alt="klub"
+                />
+                <div class="text-base">KK Brno</div>
+              </div>
+            </td>
+            <td class="h4">28</td>
+            <td>
+              <a class="link text-accent align-middle text-base-13" href="#">
+                DETAIL
+                <svg
+                  width="11"
+                  height="11"
+                  viewBox="0 0 11 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z"
+                    fill="#d7141a"
+                  /></svg
+              ></a>
+            </td>
+          </tr>
+          <tr>
+            <td class="font-display text-base-18">2</td>
+            <td>
+              <div class="d-flex align-items-center gap-3">
+                <img
+                  class="object-fit-cover rounded-circle"
+                  width="36"
+                  height="36"
+                  src="images/content/ava.png"
+                  alt="photo"
+                />
+                <a class="hover-outline" href="#">
+                  <div class="fw-bold">Tereza Hájková</div>
+                  <div class="text-uppercase text-primary-50 text-bold-10">
+                    &#64;hajkova
+                  </div>
+                </a>
+              </div>
+            </td>
+            <td>
+              <div class="d-flex align-items-center gap-2">
+                <img
+                  class="object-fit-contain rounded-circle"
+                  width="20"
+                  height="20"
+                  src="images/content/team-2.png"
+                  loading="lazy"
+                  alt="klub"
+                />
+                <div class="text-base">SK Praha 6</div>
+              </div>
+            </td>
+            <td class="h4">28</td>
+            <td>
+              <a class="link text-accent align-middle text-base-13" href="#">
+                DETAIL
+                <svg
+                  width="11"
+                  height="11"
+                  viewBox="0 0 11 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z"
+                    fill="#d7141a"
+                  /></svg
+              ></a>
+            </td>
+          </tr>
+          <tr>
+            <td class="font-display text-base-18">3</td>
+            <td>
+              <div class="d-flex align-items-center gap-3">
+                <img
+                  class="object-fit-cover rounded-circle"
+                  width="36"
+                  height="36"
+                  src="images/content/ava.png"
+                  alt="photo"
+                />
+                <a class="hover-outline" href="#">
+                  <div class="fw-bold">Tereza Hájková</div>
+                  <div class="text-uppercase text-primary-50 text-bold-10">
+                    &#64;hajkova
+                  </div>
+                </a>
+              </div>
+            </td>
+            <td>
+              <div class="d-flex align-items-center gap-2">
+                <img
+                  class="object-fit-contain rounded-circle"
+                  width="20"
+                  height="20"
+                  src="images/content/team-3.png"
+                  loading="lazy"
+                  alt="klub"
+                />
+                <div class="text-base">KK Olomouc</div>
+              </div>
+            </td>
+            <td class="h4">28</td>
+            <td>
+              <a class="link text-accent align-middle text-base-13" href="#">
+                DETAIL
+                <svg
+                  width="11"
+                  height="11"
+                  viewBox="0 0 11 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z"
+                    fill="#d7141a"
+                  /></svg
+              ></a>
+            </td>
+          </tr>
+          <tr>
+            <td class="font-display text-base-18">4</td>
+            <td>
+              <div class="d-flex align-items-center gap-3">
+                <img
+                  class="object-fit-cover rounded-circle"
+                  width="36"
+                  height="36"
+                  src="images/content/ava.png"
+                  alt="photo"
+                />
+                <a class="hover-outline" href="#">
+                  <div class="fw-bold">Tereza Hájková</div>
+                  <div class="text-uppercase text-primary-50 text-bold-10">
+                    &#64;hajkova
+                  </div>
+                </a>
+              </div>
+            </td>
+            <td>
+              <div class="d-flex align-items-center gap-2">
+                <img
+                  class="object-fit-contain rounded-circle"
+                  width="20"
+                  height="20"
+                  src="images/content/team-4.png"
+                  loading="lazy"
+                  alt="klub"
+                />
+                <div class="text-base">Korfbal Plzeň</div>
+              </div>
+            </td>
+            <td class="h4">28</td>
+            <td>
+              <a class="link text-accent align-middle text-base-13" href="#">
+                DETAIL
+                <svg
+                  width="11"
+                  height="11"
+                  viewBox="0 0 11 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z"
+                    fill="#d7141a"
+                  /></svg
+              ></a>
+            </td>
+          </tr>
+          <tr>
+            <td class="font-display text-base-18">1</td>
+            <td>
+              <div class="d-flex align-items-center gap-3">
+                <img
+                  class="object-fit-cover rounded-circle"
+                  width="36"
+                  height="36"
+                  src="images/content/ava.png"
+                  alt="photo"
+                />
+                <a class="hover-outline" href="#">
+                  <div class="fw-bold">Tereza Hájková</div>
+                  <div class="text-uppercase text-primary-50 text-bold-10">
+                    &#64;hajkova
+                  </div>
+                </a>
+              </div>
+            </td>
+            <td>
+              <div class="d-flex align-items-center gap-2">
+                <img
+                  class="object-fit-contain rounded-circle"
+                  width="20"
+                  height="20"
+                  src="images/content/team-1.png"
+                  loading="lazy"
+                  alt="klub"
+                />
+                <div class="text-base">KK Brno</div>
+              </div>
+            </td>
+            <td class="h4">28</td>
+            <td>
+              <a class="link text-accent align-middle text-base-13" href="#">
+                DETAIL
+                <svg
+                  width="11"
+                  height="11"
+                  viewBox="0 0 11 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z"
+                    fill="#d7141a"
+                  /></svg
+              ></a>
+            </td>
+          </tr>
+          <tr>
+            <td class="font-display text-base-18">2</td>
+            <td>
+              <div class="d-flex align-items-center gap-3">
+                <img
+                  class="object-fit-cover rounded-circle"
+                  width="36"
+                  height="36"
+                  src="images/content/ava.png"
+                  alt="photo"
+                />
+                <a class="hover-outline" href="#">
+                  <div class="fw-bold">Tereza Hájková</div>
+                  <div class="text-uppercase text-primary-50 text-bold-10">
+                    &#64;hajkova
+                  </div>
+                </a>
+              </div>
+            </td>
+            <td>
+              <div class="d-flex align-items-center gap-2">
+                <img
+                  class="object-fit-contain rounded-circle"
+                  width="20"
+                  height="20"
+                  src="images/content/team-2.png"
+                  loading="lazy"
+                  alt="klub"
+                />
+                <div class="text-base">SK Praha 6</div>
+              </div>
+            </td>
+            <td class="h4">28</td>
+            <td>
+              <a class="link text-accent align-middle text-base-13" href="#">
+                DETAIL
+                <svg
+                  width="11"
+                  height="11"
+                  viewBox="0 0 11 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z"
+                    fill="#d7141a"
+                  /></svg
+              ></a>
+            </td>
+          </tr>
+          <tr>
+            <td class="font-display text-base-18">3</td>
+            <td>
+              <div class="d-flex align-items-center gap-3">
+                <img
+                  class="object-fit-cover rounded-circle"
+                  width="36"
+                  height="36"
+                  src="images/content/ava.png"
+                  alt="photo"
+                />
+                <a class="hover-outline" href="#">
+                  <div class="fw-bold">Tereza Hájková</div>
+                  <div class="text-uppercase text-primary-50 text-bold-10">
+                    &#64;hajkova
+                  </div>
+                </a>
+              </div>
+            </td>
+            <td>
+              <div class="d-flex align-items-center gap-2">
+                <img
+                  class="object-fit-contain rounded-circle"
+                  width="20"
+                  height="20"
+                  src="images/content/team-3.png"
+                  loading="lazy"
+                  alt="klub"
+                />
+                <div class="text-base">KK Olomouc</div>
+              </div>
+            </td>
+            <td class="h4">28</td>
+            <td>
+              <a class="link text-accent align-middle text-base-13" href="#">
+                DETAIL
+                <svg
+                  width="11"
+                  height="11"
+                  viewBox="0 0 11 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z"
+                    fill="#d7141a"
+                  /></svg
+              ></a>
+            </td>
+          </tr>
+          <tr>
+            <td class="font-display text-base-18">4</td>
+            <td>
+              <div class="d-flex align-items-center gap-3">
+                <img
+                  class="object-fit-cover rounded-circle"
+                  width="36"
+                  height="36"
+                  src="images/content/ava.png"
+                  alt="photo"
+                />
+                <a class="hover-outline" href="#">
+                  <div class="fw-bold">Tereza Hájková</div>
+                  <div class="text-uppercase text-primary-50 text-bold-10">
+                    &#64;hajkova
+                  </div>
+                </a>
+              </div>
+            </td>
+            <td>
+              <div class="d-flex align-items-center gap-2">
+                <img
+                  class="object-fit-contain rounded-circle"
+                  width="20"
+                  height="20"
+                  src="images/content/team-4.png"
+                  loading="lazy"
+                  alt="klub"
+                />
+                <div class="text-base">Korfbal Plzeň</div>
+              </div>
+            </td>
+            <td class="h4">28</td>
+            <td>
+              <a class="link text-accent align-middle text-base-13" href="#">
+                DETAIL
+                <svg
+                  width="11"
+                  height="11"
+                  viewBox="0 0 11 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z"
+                    fill="#d7141a"
+                  /></svg
+              ></a>
+            </td>
+          </tr>
+          <tr>
+            <td class="font-display text-base-18">1</td>
+            <td>
+              <div class="d-flex align-items-center gap-3">
+                <img
+                  class="object-fit-cover rounded-circle"
+                  width="36"
+                  height="36"
+                  src="images/content/ava.png"
+                  alt="photo"
+                />
+                <a class="hover-outline" href="#">
+                  <div class="fw-bold">Tereza Hájková</div>
+                  <div class="text-uppercase text-primary-50 text-bold-10">
+                    &#64;hajkova
+                  </div>
+                </a>
+              </div>
+            </td>
+            <td>
+              <div class="d-flex align-items-center gap-2">
+                <img
+                  class="object-fit-contain rounded-circle"
+                  width="20"
+                  height="20"
+                  src="images/content/team-1.png"
+                  loading="lazy"
+                  alt="klub"
+                />
+                <div class="text-base">KK Brno</div>
+              </div>
+            </td>
+            <td class="h4">28</td>
+            <td>
+              <a class="link text-accent align-middle text-base-13" href="#">
+                DETAIL
+                <svg
+                  width="11"
+                  height="11"
+                  viewBox="0 0 11 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z"
+                    fill="#d7141a"
+                  /></svg
+              ></a>
+            </td>
+          </tr>
+          <tr>
+            <td class="font-display text-base-18">2</td>
+            <td>
+              <div class="d-flex align-items-center gap-3">
+                <img
+                  class="object-fit-cover rounded-circle"
+                  width="36"
+                  height="36"
+                  src="images/content/ava.png"
+                  alt="photo"
+                />
+                <a class="hover-outline" href="#">
+                  <div class="fw-bold">Tereza Hájková</div>
+                  <div class="text-uppercase text-primary-50 text-bold-10">
+                    &#64;hajkova
+                  </div>
+                </a>
+              </div>
+            </td>
+            <td>
+              <div class="d-flex align-items-center gap-2">
+                <img
+                  class="object-fit-contain rounded-circle"
+                  width="20"
+                  height="20"
+                  src="images/content/team-2.png"
+                  loading="lazy"
+                  alt="klub"
+                />
+                <div class="text-base">SK Praha 6</div>
+              </div>
+            </td>
+            <td class="h4">28</td>
+            <td>
+              <a class="link text-accent align-middle text-base-13" href="#">
+                DETAIL
+                <svg
+                  width="11"
+                  height="11"
+                  viewBox="0 0 11 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z"
+                    fill="#d7141a"
+                  /></svg
+              ></a>
+            </td>
+          </tr>
+          <tr>
+            <td class="font-display text-base-18">3</td>
+            <td>
+              <div class="d-flex align-items-center gap-3">
+                <img
+                  class="object-fit-cover rounded-circle"
+                  width="36"
+                  height="36"
+                  src="images/content/ava.png"
+                  alt="photo"
+                />
+                <a class="hover-outline" href="#">
+                  <div class="fw-bold">Tereza Hájková</div>
+                  <div class="text-uppercase text-primary-50 text-bold-10">
+                    &#64;hajkova
+                  </div>
+                </a>
+              </div>
+            </td>
+            <td>
+              <div class="d-flex align-items-center gap-2">
+                <img
+                  class="object-fit-contain rounded-circle"
+                  width="20"
+                  height="20"
+                  src="images/content/team-3.png"
+                  loading="lazy"
+                  alt="klub"
+                />
+                <div class="text-base">KK Olomouc</div>
+              </div>
+            </td>
+            <td class="h4">28</td>
+            <td>
+              <a class="link text-accent align-middle text-base-13" href="#">
+                DETAIL
+                <svg
+                  width="11"
+                  height="11"
+                  viewBox="0 0 11 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z"
+                    fill="#d7141a"
+                  /></svg
+              ></a>
+            </td>
+          </tr>
+          <tr>
+            <td class="font-display text-base-18">4</td>
+            <td>
+              <div class="d-flex align-items-center gap-3">
+                <img
+                  class="object-fit-cover rounded-circle"
+                  width="36"
+                  height="36"
+                  src="images/content/ava.png"
+                  alt="photo"
+                />
+                <a class="hover-outline" href="#">
+                  <div class="fw-bold">Tereza Hájková</div>
+                  <div class="text-uppercase text-primary-50 text-bold-10">
+                    &#64;hajkova
+                  </div>
+                </a>
+              </div>
+            </td>
+            <td>
+              <div class="d-flex align-items-center gap-2">
+                <img
+                  class="object-fit-contain rounded-circle"
+                  width="20"
+                  height="20"
+                  src="images/content/team-4.png"
+                  loading="lazy"
+                  alt="klub"
+                />
+                <div class="text-base">Korfbal Plzeň</div>
+              </div>
+            </td>
+            <td class="h4">28</td>
+            <td>
+              <a class="link text-accent align-middle text-base-13" href="#">
+                DETAIL
+                <svg
+                  width="11"
+                  height="11"
+                  viewBox="0 0 11 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z"
+                    fill="#d7141a"
+                  /></svg
+              ></a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div
+      class="d-flex flex-md-row flex-column justify-content-md-between align-items-center gap-6 mt-md-12 mt-8"
+    >
+      <div class="text-bold-11 text-uppercase text-primary-60">
+        1–12 Z 5 240 HRÁČŮ
+      </div>
+      <nav class="navPagination" aria-label="Page navigation">
+        <ul class="pagination">
+          <li class="d-flex align-items-center gap-1">
+            <a
+              class="hover-outline d-flex align-items-center gap-2 text-bold-11 text-uppercase"
+              href="#"
+            >
+              <svg
+                width="11"
+                height="11"
+                viewBox="0 0 11 11"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g transform="translate(11 0) scale(-1 1)">
+                  <path
+                    d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z"
+                    fill="#1b2046"
+                  />
+                </g>
+              </svg>
+            </a>
+          </li>
+
+          <li class="page-item active">
+            <a class="page-link" href="#">1</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#">2</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#">3</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#">4</a>
+          </li>
+          <li class="page-item disabled" aria-hidden="true">
+            <span class="page-link">&hellip;</span>
+          </li>
+
+          <li class="page-item">
+            <a class="page-link" href="#">158</a>
+          </li>
+          <li class="d-flex">
+            <a
+              class="hover-outline d-flex align-items-center gap-2 text-bold-11 text-uppercase"
+              href="#"
+            >
+              <svg
+                width="11"
+                height="11"
+                viewBox="0 0 11 11"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z"
+                  fill="#1b2046"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</section>
