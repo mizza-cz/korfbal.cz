@@ -241,379 +241,682 @@
 						SVAZ · ORGÁNY A KOMISE
 					</a>
 					<h1 class="h1 mb-4">ORGÁNY A KOMISE ČKS</h1>
-					<div class="text-primary-50 mb-8">
+					<div class="text-primary-75 mb-8 text-base-16">
 						Přehled volených orgánů a odborných komisí Českého korfbalového svazu.
 						Rozklikněte komisi pro seznam členů a kontakty.
 					</div>
-					<div class="commissions__list">
-						<!-- Open accordion -->
-						<article class="commission is-open">
-							<div class="commission__header">
-								<div class="commission__heading">
-									<div class="commission__type">
-										<span class="commission__type-dot"></span>
-										Volený orgán
-									</div>
-
-									<h2 class="commission__title">Výkonný výbor ČKS</h2>
-								</div>
-
-								<div class="commission__controls">
-									<div class="commission__meta">
-										5 členů · Funkční období 2024–2028
-									</div>
-
-									<button class="commission__toggle" type="button" aria-expanded="true" aria-controls="commission-executive">
-										<span class="visually-hidden">Zavřít Výkonný výbor ČKS</span>
-
-										<svg class="commission__toggle-icon" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
-											<path d="M3 10.5 8 5.5l5 5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-										</svg>
-									</button>
-								</div>
-							</div>
-
-							<div class="commission__preview" hidden>
-								Petr Novák · Jana Svobodová · Tomáš Dvořák · Martina Králová · Lukáš
-								Procházka
-							</div>
-
-							<div class="commission__content" id="commission-executive">
-								<div class="commission__members commission__members--columns">
-									<div class="commissionMember">
-										<h3 class="commissionMember__name">Petr Novák</h3>
-										<div class="commissionMember__position">Předseda</div>
-
-										<a class="commissionMember__email" href="mailto:petr.novak@korfbal.cz">
-											petr.novak@korfbal.cz
-										</a>
-
-										<a class="commissionMember__link" href="mailto:petr.novak@korfbal.cz">
-											Napsat →
-										</a>
-									</div>
-
-									<div class="commissionMember">
-										<h3 class="commissionMember__name">Jana Svobodová</h3>
-										<div class="commissionMember__position">Místopředsedkyně</div>
-
-										<a class="commissionMember__email" href="mailto:jana.svobodova@korfbal.cz">
-											jana.svobodova@korfbal.cz
-										</a>
-
-										<a class="commissionMember__link" href="mailto:jana.svobodova@korfbal.cz">
-											Napsat →
-										</a>
-									</div>
-
-									<div class="commissionMember">
-										<h3 class="commissionMember__name">Tomáš Dvořák</h3>
-										<div class="commissionMember__position">Člen VV</div>
-
-										<a class="commissionMember__email" href="mailto:tomas.dvorak@korfbal.cz">
-											tomas.dvorak@korfbal.cz
-										</a>
-
-										<a class="commissionMember__link" href="mailto:tomas.dvorak@korfbal.cz">
-											Napsat →
-										</a>
-									</div>
-
-									<div class="commissionMember">
-										<h3 class="commissionMember__name">Martina Králová</h3>
-										<div class="commissionMember__position">Členka VV</div>
-
-										<a class="commissionMember__email" href="mailto:martina.kralova@korfbal.cz">
-											martina.kralova@korfbal.cz
-										</a>
-
-										<a class="commissionMember__link" href="mailto:martina.kralova@korfbal.cz">
-											Napsat →
-										</a>
-									</div>
-
-									<div class="commissionMember">
-										<h3 class="commissionMember__name">Lukáš Procházka</h3>
-										<div class="commissionMember__position">Generální sekretář</div>
-
-										<a class="commissionMember__email" href="mailto:lukas.prochazka@korfbal.cz">
-											lukas.prochazka@korfbal.cz
-										</a>
-
-										<a class="commissionMember__link" href="mailto:lukas.prochazka@korfbal.cz">
-											Napsat →
-										</a>
-									</div>
-								</div>
-							</div>
-						</article>
-
-						<!-- Closed accordion -->
-						<article class="commission">
-							<div class="commission__header">
-								<div class="commission__heading">
-									<div class="commission__type">
-										<span class="commission__type-dot"></span>
-										Volený orgán
-									</div>
-
-									<h2 class="commission__title">Kontrolní komise ČKS</h2>
-								</div>
-
-								<div class="commission__controls">
-									<div class="commission__meta">3 členové</div>
-
-									<button class="commission__toggle" type="button" aria-expanded="false" aria-controls="commission-control">
-										<span class="visually-hidden">Otevřít Kontrolní komisi ČKS</span>
-
-										<svg class="commission__toggle-icon" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
-											<path d="m3 5.5 5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-										</svg>
-									</button>
-								</div>
-							</div>
-
-							<div class="commission__preview">
-								Ing. Karel Beneš (předseda) · Alena Marková · Jiří Pokorný
-							</div>
-
-							<div class="commission__content" id="commission-control" hidden>
-								<div class="commission__members commission__members--rows">
-									<div class="commissionMember">
-										<div class="commissionMember__info">
-											<h3 class="commissionMember__name">Ing. Karel Beneš</h3>
-											<div class="commissionMember__position">Předseda</div>
+					<ul class="sortsMenu mb-5 pb-3">
+						<li>
+							<a class="sortsMenu__link active" href="#">VÝKONNÝ VÝBOR</a>
+						</li>
+						<li>
+							<a class="sortsMenu__link" href="#">KONTROLNÍ KOMISE</a>
+						</li>
+						<li>
+							<a class="sortsMenu__link" href="#">ODBORNÉ KOMISE</a>
+						</li>
+					</ul>
+					<div class="accordion" id="accordionCommissions">
+						<div class="accordion-item">
+							<div class="accordion-header" id="executiveCommittee">
+								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExecutiveCommittee" aria-expanded="true" aria-controls="collapseExecutiveCommittee">
+									<div class="d-grid gap-2">
+										<div class="dotDecore-accent text-uppercase text-accent text-bold-11">
+											VOLENÝ ORGÁN
 										</div>
 
-										<a class="commissionMember__email" href="mailto:karel.benes@korfbal.cz">
-											karel.benes@korfbal.cz
-										</a>
-
-										<a class="commissionMember__link" href="mailto:karel.benes@korfbal.cz">
-											Napsat →
-										</a>
+										<h2 class="h3">VÝKONNÝ VÝBOR ČKS</h2>
 									</div>
 
-									<div class="commissionMember">
-										<div class="commissionMember__info">
-											<h3 class="commissionMember__name">Alena Marková</h3>
-											<div class="commissionMember__position">Členka</div>
-										</div>
-
-										<a class="commissionMember__email" href="mailto:alena.markova@korfbal.cz">
-											alena.markova@korfbal.cz
-										</a>
-
-										<a class="commissionMember__link" href="mailto:alena.markova@korfbal.cz">
-											Napsat →
-										</a>
+									<div class="text-bold-11 text-uppercase text-primary-50">
+										5 ČLENŮ · FUNKČNÍ OBDOBÍ 2024–2028
 									</div>
+								</button>
+							</div>
 
-									<div class="commissionMember">
-										<div class="commissionMember__info">
-											<h3 class="commissionMember__name">Jiří Pokorný</h3>
-											<div class="commissionMember__position">Člen</div>
+							<div id="collapseExecutiveCommittee" class="accordion-collapse collapse show" aria-labelledby="executiveCommittee" data-bs-parent="#accordionCommissions">
+								<div class="accordion-body">
+									<div class="commission__members commission__members--columns">
+										<div class="commissionMember">
+											<div class="d-grid gap-1">
+												<h3 class="text-bold-14">Petr Novák</h3>
+												<div class="text-bold-11 text-accent text-uppercase">
+													Předseda
+												</div>
+											</div>
+											<div class="d-md-grid d-flex align-items-center gap-md-3 gap-sm-8 gap-2 flex-wrap gap-2 mt-md-1 justify-content-between w-sm-auto w-100">
+												<a class="text-base-12 text-primary-75 hover-outline" href="mailto:petr.novak@korfbal.cz">
+													petr.novak@korfbal.cz
+												</a>
+
+												<a class="link text-accent align-middle text-bold-11" href="#">
+													NAPSAT
+													<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z" fill="#d7141a" />
+													</svg></a>
+											</div>
 										</div>
 
-										<a class="commissionMember__email" href="mailto:jiri.pokorny@korfbal.cz">
-											jiri.pokorny@korfbal.cz
-										</a>
+										<div class="commissionMember">
+											<div class="d-grid gap-1">
+												<h3 class="text-bold-14">Jana Svobodová</h3>
+												<div class="text-bold-11 text-accent text-uppercase">
+													Místopředsedkyně
+												</div>
+											</div>
 
-										<a class="commissionMember__link" href="mailto:jiri.pokorny@korfbal.cz">
-											Napsat →
-										</a>
+											<div class="d-md-grid d-flex align-items-center gap-md-3 gap-sm-8 gap-2 flex-wrap gap-2 mt-md-1 justify-content-between w-sm-auto w-100">
+												<a class="text-base-12 text-primary-75 hover-outline" href="mailto:jana.svobodova@korfbal.cz">
+													jana.svobodova@korfbal.cz
+												</a>
+
+												<a class="link text-accent align-middle text-bold-11" href="#">
+													NAPSAT
+													<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z" fill="#d7141a" />
+													</svg>
+												</a>
+											</div>
+										</div>
+
+										<div class="commissionMember">
+											<div class="d-grid gap-1">
+												<h3 class="text-bold-14">Tomáš Dvořák</h3>
+												<div class="text-bold-11 text-accent text-uppercase">
+													Člen VV
+												</div>
+											</div>
+
+											<div class="d-md-grid d-flex align-items-center gap-md-3 gap-sm-8 gap-2 flex-wrap gap-2 mt-md-1 justify-content-between w-sm-auto w-100">
+												<a class="text-base-12 text-primary-75 hover-outline" href="mailto:tomas.dvorak@korfbal.cz">
+													tomas.dvorak@korfbal.cz
+												</a>
+
+												<a class="link text-accent align-middle text-bold-11" href="#">
+													NAPSAT
+													<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z" fill="#d7141a" />
+													</svg>
+												</a>
+											</div>
+										</div>
+
+										<div class="commissionMember">
+											<div class="d-grid gap-1">
+												<h3 class="text-bold-14">Martina Králová</h3>
+												<div class="text-bold-11 text-accent text-uppercase">
+													Členka VV
+												</div>
+											</div>
+
+											<div class="d-md-grid d-flex align-items-center gap-md-3 gap-sm-8 gap-2 flex-wrap gap-2 mt-md-1 justify-content-between w-sm-auto w-100">
+												<a class="text-base-12 text-primary-75 hover-outline" href="mailto:martina.kralova@korfbal.cz">
+													martina.kralova@korfbal.cz
+												</a>
+
+												<a class="link text-accent align-middle text-bold-11" href="#">
+													NAPSAT
+													<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z" fill="#d7141a" />
+													</svg>
+												</a>
+											</div>
+										</div>
+
+										<div class="commissionMember">
+											<div class="d-grid gap-1">
+												<h3 class="text-bold-14">Lukáš Procházka</h3>
+												<div class="text-bold-11 text-accent text-uppercase">
+													Generální sekretář
+												</div>
+											</div>
+
+											<div class="d-md-grid d-flex align-items-center gap-md-3 gap-sm-8 gap-2 flex-wrap gap-2 mt-md-1 justify-content-between w-sm-auto w-100">
+												<a class="text-base-12 text-primary-75 hover-outline" href="mailto:lukas.prochazka@korfbal.cz">
+													lukas.prochazka@korfbal.cz
+												</a>
+
+												<a class="link text-accent align-middle text-bold-11" href="#">
+													NAPSAT
+													<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z" fill="#d7141a" />
+													</svg>
+												</a>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
-						</article>
-					</div>
-
-					<div class="commissions__sectionHeader">
-						<div>
-							<h2 class="commissions__title">Odborné komise ČKS</h2>
-
-							<p class="commissions__description">
-								Odborné komise zřizuje Výkonný výbor. Kontaktujte přímo předsedu
-								příslušné komise.
-							</p>
 						</div>
 
-						<div class="commissions__count">4 komise</div>
-					</div>
+						<div class="accordion-item">
+							<div class="accordion-header" id="controlCommission">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseControlCommission" aria-expanded="false" aria-controls="collapseControlCommission">
+									<div class="d-grid gap-2">
+										<div class="dotDecore-accent text-uppercase text-accent text-bold-11">
+											VOLENÝ ORGÁN
+										</div>
 
-					<div class="commissions__list">
-						<!-- Open rows accordion -->
-						<article class="commission is-open">
-							<div class="commission__header">
-								<div class="commission__heading">
-									<div class="commission__type">
-										<span class="commission__type-dot"></span>
-										Odborná komise
+										<h2 class="h3">KONTROLNÍ KOMISE ČKS</h2>
 									</div>
 
-									<h2 class="commission__title">Komise rozhodčích</h2>
-								</div>
-
-								<div class="commission__controls">
-									<div class="commission__meta">4 členové</div>
-
-									<button class="commission__toggle" type="button" aria-expanded="true" aria-controls="commission-referees">
-										<span class="visually-hidden">Zavřít Komisi rozhodčích</span>
-
-										<svg class="commission__toggle-icon" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
-											<path d="M3 10.5 8 5.5l5 5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-										</svg>
-									</button>
-								</div>
+									<div class="text-bold-11 text-uppercase text-primary-50">
+										3 ČLENOVÉ
+									</div>
+								</button>
 							</div>
 
-							<div class="commission__preview" hidden>
-								Michal Vávra · Eva Malá · Radek Šimek · Kateřina Holá
-							</div>
+							<div id="collapseControlCommission" class="accordion-collapse collapse" aria-labelledby="controlCommission" data-bs-parent="#accordionCommissions">
+								<div class="accordion-body">
+									<div class="commission__members commission__members--columns">
+										<div class="commissionMember">
+											<div class="d-grid gap-1">
+												<h3 class="text-bold-14">Ing. Karel Beneš</h3>
+												<div class="text-bold-11 text-accent text-uppercase">
+													Předseda
+												</div>
+											</div>
 
-							<div class="commission__content" id="commission-referees">
-								<div class="commission__members commission__members--rows">
-									<div class="commissionMember">
-										<div class="commissionMember__info">
-											<h3 class="commissionMember__name">Michal Vávra</h3>
-											<div class="commissionMember__position">Předseda</div>
+											<div class="d-md-grid d-flex align-items-center gap-md-3 gap-sm-8 gap-2 flex-wrap gap-2 mt-md-1 justify-content-between w-sm-auto w-100">
+												<a class="text-base-12 text-primary-75 hover-outline" href="mailto:karel.benes@korfbal.cz">
+													karel.benes@korfbal.cz
+												</a>
+
+												<a class="link text-accent align-middle text-bold-11" href="#">
+													NAPSAT
+													<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z" fill="#d7141a" />
+													</svg>
+												</a>
+											</div>
 										</div>
+										<div class="commissionMember">
+											<div class="d-grid gap-1">
+												<h3 class="text-bold-14">Alena Marková</h3>
+												<div class="text-bold-11 text-accent text-uppercase">
+													ČLENKA
+												</div>
+											</div>
 
-										<a class="commissionMember__email" href="mailto:michal.vavra@korfbal.cz">
-											michal.vavra@korfbal.cz
-										</a>
+											<div class="d-md-grid d-flex align-items-center gap-md-3 gap-sm-8 gap-2 flex-wrap gap-2 mt-md-1 justify-content-between w-sm-auto w-100">
+												<a class="text-base-12 text-primary-75 hover-outline" href="mailto:lukas.prochazka@korfbal.cz">
+													alena.markova@korfbal.cz
+												</a>
 
-										<a class="commissionMember__link" href="mailto:michal.vavra@korfbal.cz">
-											Napsat →
-										</a>
-									</div>
-
-									<div class="commissionMember">
-										<div class="commissionMember__info">
-											<h3 class="commissionMember__name">Eva Malá</h3>
-											<div class="commissionMember__position">Místopředsedkyně</div>
+												<a class="link text-accent align-middle text-bold-11" href="#">
+													NAPSAT
+													<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z" fill="#d7141a" />
+													</svg>
+												</a>
+											</div>
 										</div>
+										<div class="commissionMember">
+											<div class="d-grid gap-1">
+												<h3 class="text-bold-14">Jiří Pokorný</h3>
+												<div class="text-bold-11 text-accent text-uppercase">
+													Člen
+												</div>
+											</div>
 
-										<a class="commissionMember__email" href="mailto:eva.mala@korfbal.cz">
-											eva.mala@korfbal.cz
-										</a>
+											<div class="d-md-grid d-flex align-items-center gap-md-3 gap-sm-8 gap-2 flex-wrap gap-2 mt-md-1 justify-content-between w-sm-auto w-100">
+												<a class="text-base-12 text-primary-75 hover-outline" href="mailto:lukas.prochazka@korfbal.cz">
+													jiri.pokorny@korfbal.cz
+												</a>
 
-										<a class="commissionMember__link" href="mailto:eva.mala@korfbal.cz">
-											Napsat →
-										</a>
-									</div>
-
-									<div class="commissionMember">
-										<div class="commissionMember__info">
-											<h3 class="commissionMember__name">Radek Šimek</h3>
-											<div class="commissionMember__position">Člen</div>
+												<a class="link text-accent align-middle text-bold-11" href="#">
+													NAPSAT
+													<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z" fill="#d7141a" />
+													</svg>
+												</a>
+											</div>
 										</div>
-
-										<a class="commissionMember__email" href="mailto:radek.simek@korfbal.cz">
-											radek.simek@korfbal.cz
-										</a>
-
-										<a class="commissionMember__link" href="mailto:radek.simek@korfbal.cz">
-											Napsat →
-										</a>
-									</div>
-
-									<div class="commissionMember">
-										<div class="commissionMember__info">
-											<h3 class="commissionMember__name">Kateřina Holá</h3>
-											<div class="commissionMember__position">Členka</div>
-										</div>
-
-										<a class="commissionMember__email" href="mailto:katerina.hola@korfbal.cz">
-											katerina.hola@korfbal.cz
-										</a>
-
-										<a class="commissionMember__link" href="mailto:katerina.hola@korfbal.cz">
-											Napsat →
-										</a>
 									</div>
 								</div>
 							</div>
-						</article>
+						</div>
+						<div class="d-flex align-items-center flex-wrap gap-2 justify-content-between">
+							<h2 class="h3">ODBORNÉ KOMISE ČKS</h2>
+							<div class="text-bold-11 text-uppercase text-primary-50">4 KOMISE</div>
+						</div>
+						<div class="mt-2 text-base-14 text-primary-75 mb-6">
+							Odborné komise zřizuje Výkonný výbor. Kontaktujte přímo předsedu
+							příslušné komise.
+						</div>
 
-						<!-- Closed accordion -->
-						<article class="commission">
-							<div class="commission__header">
-								<div class="commission__heading">
-									<div class="commission__type">
-										<span class="commission__type-dot"></span>
-										Odborná komise
-									</div>
-
-									<h2 class="commission__title">Marketingová komise</h2>
-								</div>
-
-								<div class="commission__controls">
-									<div class="commission__meta">3 členové</div>
-
-									<button class="commission__toggle" type="button" aria-expanded="false" aria-controls="commission-marketing">
-										<span class="visually-hidden">Otevřít Marketingovou komisi</span>
-
-										<svg class="commission__toggle-icon" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
-											<path d="m3 5.5 5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-										</svg>
-									</button>
-								</div>
-							</div>
-
-							<div class="commission__preview">
-								Lenka Horáková (předsedkyně) · Ondřej Čech · Simona Bláhová
-							</div>
-
-							<div class="commission__content" id="commission-marketing" hidden>
-								<div class="commission__members commission__members--rows">
-									<div class="commissionMember">
-										<div class="commissionMember__info">
-											<h3 class="commissionMember__name">Lenka Horáková</h3>
-											<div class="commissionMember__position">Předsedkyně</div>
+						<div class="accordion-item">
+							<div class="accordion-header" id="refereeCommission">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRefereeCommission" aria-expanded="false" aria-controls="collapseRefereeCommission">
+									<div class="d-grid gap-2">
+										<div class="dotDecore-accent text-uppercase text-accent text-bold-11">
+											ODBORNÁ KOMISE
 										</div>
 
-										<a class="commissionMember__email" href="mailto:lenka.horakova@korfbal.cz">
-											lenka.horakova@korfbal.cz
-										</a>
-
-										<a class="commissionMember__link" href="mailto:lenka.horakova@korfbal.cz">
-											Napsat →
-										</a>
+										<h2 class="h3">KOMISE ROZHODČÍCH</h2>
 									</div>
 
-									<div class="commissionMember">
-										<div class="commissionMember__info">
-											<h3 class="commissionMember__name">Ondřej Čech</h3>
-											<div class="commissionMember__position">Člen</div>
-										</div>
-
-										<a class="commissionMember__email" href="mailto:ondrej.cech@korfbal.cz">
-											ondrej.cech@korfbal.cz
-										</a>
-
-										<a class="commissionMember__link" href="mailto:ondrej.cech@korfbal.cz">
-											Napsat →
-										</a>
+									<div class="text-bold-11 text-uppercase text-primary-50">
+										4 ČLENOVÉ
 									</div>
+								</button>
+							</div>
 
-									<div class="commissionMember">
-										<div class="commissionMember__info">
-											<h3 class="commissionMember__name">Simona Bláhová</h3>
-											<div class="commissionMember__position">Členka</div>
+							<div id="collapseRefereeCommission" class="accordion-collapse collapse" aria-labelledby="refereeCommission" data-bs-parent="#accordionCommissions">
+								<div class="accordion-body">
+									<div class="commission__members commission__members--row">
+										<div class="commissionMember">
+											<div class="d-grid gap-1">
+												<h3 class="text-bold-14">Michal Vávra</h3>
+												<div class="text-bold-11 text-accent text-uppercase">
+													Předseda
+												</div>
+											</div>
+
+											<div class="d-flex align-items-center gap-md-15 gap-sm-8 gap-2 mt-md-1 justify-content-between w-sm-auto w-100">
+												<a class="text-base-12 text-primary-75 hover-outline" href="mailto:martin.cerny@korfbal.cz">
+													martin.cerny@korfbal.cz
+												</a>
+
+												<a class="link text-accent align-middle text-bold-11" href="#">
+													NAPSAT
+													<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z" fill="#d7141a" />
+													</svg>
+												</a>
+											</div>
 										</div>
+										<div class="commissionMember">
+											<div class="d-grid gap-1">
+												<h3 class="text-bold-14">Eva Malá</h3>
+												<div class="text-bold-11 text-accent text-uppercase">
+													MÍSTOPŘEDSEDKYNĚ
+												</div>
+											</div>
 
-										<a class="commissionMember__email" href="mailto:simona.blahova@korfbal.cz">
-											simona.blahova@korfbal.cz
-										</a>
+											<div class="d-flex align-items-center gap-md-15 gap-sm-8 gap-2 mt-md-1 justify-content-between w-sm-auto w-100">
+												<a class="text-base-12 text-primary-75 hover-outline" href="mailto:martin.cerny@korfbal.cz">
+													martin.cerny@korfbal.cz
+												</a>
 
-										<a class="commissionMember__link" href="mailto:simona.blahova@korfbal.cz">
-											Napsat →
-										</a>
+												<a class="link text-accent align-middle text-bold-11" href="#">
+													NAPSAT
+													<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z" fill="#d7141a" />
+													</svg>
+												</a>
+											</div>
+										</div>
+										<div class="commissionMember">
+											<div class="d-grid gap-1">
+												<h3 class="text-bold-14">Radek Šimek</h3>
+												<div class="text-bold-11 text-accent text-uppercase">
+													ČLEN
+												</div>
+											</div>
+
+											<div class="d-flex align-items-center gap-md-15 gap-sm-8 gap-2 mt-md-1 justify-content-between w-sm-auto w-100">
+												<a class="text-base-12 text-primary-75 hover-outline" href="mailto:martin.cerny@korfbal.cz">
+													martin.cerny@korfbal.cz
+												</a>
+
+												<a class="link text-accent align-middle text-bold-11" href="#">
+													NAPSAT
+													<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z" fill="#d7141a" />
+													</svg>
+												</a>
+											</div>
+										</div>
+										<div class="commissionMember">
+											<div class="d-grid gap-1">
+												<h3 class="text-bold-14">Kateřina Holá</h3>
+												<div class="text-bold-11 text-accent text-uppercase">
+													ČLENKA
+												</div>
+											</div>
+
+											<div class="d-flex align-items-center gap-md-15 gap-sm-8 gap-2 mt-md-1 justify-content-between w-sm-auto w-100">
+												<a class="text-base-12 text-primary-75 hover-outline" href="mailto:katerina.hola@korfbal.cz">
+													katerina.hola@korfbal.cz
+												</a>
+
+												<a class="link text-accent align-middle text-bold-11" href="#">
+													NAPSAT
+													<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z" fill="#d7141a" />
+													</svg>
+												</a>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
-						</article>
+						</div>
+						<div class="accordion-item">
+							<div class="accordion-header" id="marketingCommission">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMarketingCommission" aria-expanded="false" aria-controls="collapseMarketingCommission">
+									<div class="d-grid gap-2">
+										<div class="dotDecore-accent text-uppercase text-accent text-bold-11">
+											ODBORNÁ KOMISE
+										</div>
+
+										<h2 class="h3">MARKETINGOVÁ KOMISE</h2>
+									</div>
+
+									<div class="text-bold-11 text-uppercase text-primary-50">
+										3 ČLENOVÉ
+									</div>
+								</button>
+							</div>
+
+							<div id="collapseMarketingCommission" class="accordion-collapse collapse" aria-labelledby="marketingCommission" data-bs-parent="#accordionCommissions">
+								<div class="accordion-body">
+									<div class="commission__members commission__members--row">
+										<div class="commissionMember">
+											<div class="d-grid gap-1">
+												<h3 class="text-bold-14">Lenka Horáková</h3>
+												<div class="text-bold-11 text-accent text-uppercase">
+													předsedkyně
+												</div>
+											</div>
+
+											<div class="d-flex align-items-center gap-md-15 gap-sm-8 gap-2 mt-md-1 justify-content-between w-sm-auto w-100">
+												<a class="text-base-12 text-primary-75 hover-outline" href="mailto:lenka.horakova@korfbal.cz">
+													lenka.horakova@korfbal.cz
+												</a>
+
+												<a class="link text-accent align-middle text-bold-11" href="#">
+													NAPSAT
+													<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z" fill="#d7141a" />
+													</svg>
+												</a>
+											</div>
+										</div>
+										<div class="commissionMember">
+											<div class="d-grid gap-1">
+												<h3 class="text-bold-14">Ondřej Čech</h3>
+												<div class="text-bold-11 text-accent text-uppercase">
+													ČLEN
+												</div>
+											</div>
+
+											<div class="d-flex align-items-center gap-md-15 gap-sm-8 gap-2 mt-md-1 justify-content-between w-sm-auto w-100">
+												<a class="text-base-12 text-primary-75 hover-outline" href="mailto:ondrej.cech@korfbal.cz">
+													ondrej.cech@korfbal.cz
+												</a>
+
+												<a class="link text-accent align-middle text-bold-11" href="#">
+													NAPSAT
+													<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z" fill="#d7141a" />
+													</svg>
+												</a>
+											</div>
+										</div>
+										<div class="commissionMember">
+											<div class="d-grid gap-1">
+												<h3 class="text-bold-14">Simona Bláhová</h3>
+												<div class="text-bold-11 text-accent text-uppercase">
+													ČLENka
+												</div>
+											</div>
+
+											<div class="d-flex align-items-center gap-md-15 gap-sm-8 gap-2 mt-md-1 justify-content-between w-sm-auto w-100">
+												<a class="text-base-12 text-primary-75 hover-outline" href="mailto:simona.blahova@korfbal.cz">
+													simona.blahova@korfbal.cz
+												</a>
+
+												<a class="link text-accent align-middle text-bold-11" href="#">
+													NAPSAT
+													<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z" fill="#d7141a" />
+													</svg>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<div class="accordion-header" id="disciplinaryCommission">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDisciplinaryCommission" aria-expanded="false" aria-controls="collapseDisciplinaryCommission">
+									<div class="d-grid gap-2">
+										<div class="dotDecore-accent text-uppercase text-accent text-bold-11">
+											ODBORNÁ KOMISE
+										</div>
+
+										<h2 class="h3">DISCIPLINÁRNÍ KOMISE</h2>
+									</div>
+
+									<div class="text-bold-11 text-uppercase text-primary-50">
+										5 ČLENŮ
+									</div>
+								</button>
+							</div>
+
+							<div id="collapseDisciplinaryCommission" class="accordion-collapse collapse" aria-labelledby="disciplinaryCommission" data-bs-parent="#accordionCommissions">
+								<div class="accordion-body">
+									<div class="commission__members commission__members--row">
+										<div class="commissionMember">
+											<div class="d-grid gap-1">
+												<h3 class="text-bold-14">JUDr. Pavel Urban</h3>
+												<div class="text-bold-11 text-accent text-uppercase">
+													předseda
+												</div>
+											</div>
+
+											<div class="d-flex align-items-center gap-md-15 gap-sm-8 gap-2 mt-md-1 justify-content-between w-sm-auto w-100">
+												<a class="text-base-12 text-primary-75 hover-outline" href="mailto:pavel.urban@korfbal.cz">
+													pavel.urban@korfbal.cz
+												</a>
+
+												<a class="link text-accent align-middle text-bold-11" href="#">
+													NAPSAT
+													<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z" fill="#d7141a" />
+													</svg>
+												</a>
+											</div>
+										</div>
+										<div class="commissionMember">
+											<div class="d-grid gap-1">
+												<h3 class="text-bold-14">Marek Fiala</h3>
+												<div class="text-bold-11 text-accent text-uppercase">
+													ČLEN
+												</div>
+											</div>
+
+											<div class="d-flex align-items-center gap-md-15 gap-sm-8 gap-2 mt-md-1 justify-content-between w-sm-auto w-100">
+												<a class="text-base-12 text-primary-75 hover-outline" href="mailto:marek.fiala@korfbal.cz">
+													marek.fiala@korfbal.cz
+												</a>
+
+												<a class="link text-accent align-middle text-bold-11" href="#">
+													NAPSAT
+													<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z" fill="#d7141a" />
+													</svg>
+												</a>
+											</div>
+										</div>
+										<div class="commissionMember">
+											<div class="d-grid gap-1">
+												<h3 class="text-bold-14">Simona Bláhová</h3>
+												<div class="text-bold-11 text-accent text-uppercase">
+													ČLENka
+												</div>
+											</div>
+
+											<div class="d-flex align-items-center gap-md-15 gap-sm-8 gap-2 mt-md-1 justify-content-between w-sm-auto w-100">
+												<a class="text-base-12 text-primary-75 hover-outline" href="mailto:simona.blahova@korfbal.cz">
+													simona.blahova@korfbal.cz
+												</a>
+
+												<a class="link text-accent align-middle text-bold-11" href="#">
+													NAPSAT
+													<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z" fill="#d7141a" />
+													</svg>
+												</a>
+											</div>
+										</div>
+										<div class="commissionMember">
+											<div class="d-grid gap-1">
+												<h3 class="text-bold-14">Hana Sedláčková</h3>
+												<div class="text-bold-11 text-accent text-uppercase">
+													ČLENka
+												</div>
+											</div>
+
+											<div class="d-flex align-items-center gap-md-15 gap-sm-8 gap-2 mt-md-1 justify-content-between w-sm-auto w-100">
+												<a class="text-base-12 text-primary-75 hover-outline" href="mailto:hana.sedlackova@korfbal.cz">
+													hana.sedlackova@korfbal.cz
+												</a>
+
+												<a class="link text-accent align-middle text-bold-11" href="#">
+													NAPSAT
+													<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z" fill="#d7141a" />
+													</svg>
+												</a>
+											</div>
+										</div>
+										<div class="commissionMember">
+											<div class="d-grid gap-1">
+												<h3 class="text-bold-14">Simona Bláhová</h3>
+												<div class="text-bold-11 text-accent text-uppercase">
+													ČLENka
+												</div>
+											</div>
+
+											<div class="d-flex align-items-center gap-md-15 gap-sm-8 gap-2 mt-md-1 justify-content-between w-sm-auto w-100">
+												<a class="text-base-12 text-primary-75 hover-outline" href="mailto:simona.blahova@korfbal.cz">
+													simona.blahova@korfbal.cz
+												</a>
+
+												<a class="link text-accent align-middle text-bold-11" href="#">
+													NAPSAT
+													<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z" fill="#d7141a" />
+													</svg>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<div class="accordion-header" id="sportsTechnicalCommission">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSportsTechnicalCommission" aria-expanded="false" aria-controls="collapseSportsTechnicalCommission">
+									<div class="d-grid gap-2">
+										<div class="dotDecore-accent text-uppercase text-accent text-bold-11">
+											ODBORNÁ KOMISE
+										</div>
+
+										<h2 class="h3">SPORTOVNĚ-TECHNICKÁ KOMISE</h2>
+									</div>
+
+									<div class="text-bold-11 text-uppercase text-primary-50">
+										4 ČLENOVÉ
+									</div>
+								</button>
+							</div>
+
+							<div id="collapseSportsTechnicalCommission" class="accordion-collapse collapse" aria-labelledby="sportsTechnicalCommission" data-bs-parent="#accordionCommissions">
+								<div class="accordion-body">
+									<div class="commission__members commission__members--row">
+										<div class="commissionMember">
+											<div class="d-grid gap-1">
+												<h3 class="text-bold-14">Jan Kolář</h3>
+												<div class="text-bold-11 text-accent text-uppercase">
+													předseda
+												</div>
+											</div>
+
+											<div class="d-flex align-items-center gap-md-15 gap-sm-8 gap-2 mt-md-1 justify-content-between w-sm-auto w-100">
+												<a class="text-base-12 text-primary-75 hover-outline" href="mailto:jan.kolar@korfbal.cz">
+													jan.kolar@korfbal.cz
+												</a>
+
+												<a class="link text-accent align-middle text-bold-11" href="#">
+													NAPSAT
+													<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z" fill="#d7141a" />
+													</svg>
+												</a>
+											</div>
+										</div>
+										<div class="commissionMember">
+											<div class="d-grid gap-1">
+												<h3 class="text-bold-14">Barbora Nová</h3>
+												<div class="text-bold-11 text-accent text-uppercase">
+													ČLENka
+												</div>
+											</div>
+
+											<div class="d-flex align-items-center gap-md-15 gap-sm-8 gap-2 mt-md-1 justify-content-between w-sm-auto w-100">
+												<a class="text-base-12 text-primary-75 hover-outline" href="mailto:barbora.nova@korfbal.cz">
+													barbora.nova@korfbal.cz
+												</a>
+
+												<a class="link text-accent align-middle text-bold-11" href="#">
+													NAPSAT
+													<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z" fill="#d7141a" />
+													</svg>
+												</a>
+											</div>
+										</div>
+										<div class="commissionMember">
+											<div class="d-grid gap-1">
+												<h3 class="text-bold-14">David Král</h3>
+												<div class="text-bold-11 text-accent text-uppercase">
+													ČLEN
+												</div>
+											</div>
+
+											<div class="d-flex align-items-center gap-md-15 gap-sm-8 gap-2 mt-md-1 justify-content-between w-sm-auto w-100">
+												<a class="text-base-12 text-primary-75 hover-outline" href="mailto:david.kral@korfbal.cz">
+													david.kral@korfbal.cz
+												</a>
+
+												<a class="link text-accent align-middle text-bold-11" href="#">
+													NAPSAT
+													<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z" fill="#d7141a" />
+													</svg>
+												</a>
+											</div>
+										</div>
+										<div class="commissionMember">
+											<div class="d-grid gap-1">
+												<h3 class="text-bold-14">Petra Vlková</h3>
+												<div class="text-bold-11 text-accent text-uppercase">
+													ČLENka
+												</div>
+											</div>
+
+											<div class="d-flex align-items-center gap-md-15 gap-sm-8 gap-2 mt-md-1 justify-content-between w-sm-auto w-100">
+												<a class="text-base-12 text-primary-75 hover-outline" href="mailto:petra.vlkova@korfbal.cz">
+													petra.vlkova@korfbal.cz
+												</a>
+
+												<a class="link text-accent align-middle text-bold-11" href="#">
+													NAPSAT
+													<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M5.03622 10.3907L3.75355 9.11794L6.74148 6.13002H0V4.2607H6.74148L3.75355 1.27774L5.03622 4.44651e-05L10.2315 5.19536L5.03622 10.3907Z" fill="#d7141a" />
+													</svg>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
