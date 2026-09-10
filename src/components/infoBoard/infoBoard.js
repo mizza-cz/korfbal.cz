@@ -1,5 +1,9 @@
 document.querySelectorAll(".infoBoardSlider").forEach((slider) => {
-  new Swiper(slider, {
+  const swiperEl = slider.querySelector(".swiper");
+
+  if (!swiperEl) return;
+
+  new Swiper(swiperEl, {
     spaceBetween: 16,
     loop: false,
     speed: 1000,
