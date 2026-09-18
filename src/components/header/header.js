@@ -108,6 +108,10 @@
     function bindMobile() {
       $menuItems.on("click.mainMenu", function (e) {
         const $currentMenu = $(this).closest(".navbar__menu-list");
+
+        if ($currentMenu.hasClass("navbar__menu-list--mobile-link")) {
+          return;
+        }
         const hasDropdown = $currentMenu.children(".dropdown-menu").length > 0;
 
         if (!hasDropdown) {

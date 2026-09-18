@@ -571,3 +571,19 @@
 .dropdown-submenu.show {
   display: block !important;
 }
+
+.navbar__menu-list--mobile-link {
+  > .navbar__menu-item {
+    svg {
+      @include media-breakpoint-down(xl) {
+        display: none;
+      }
+    }
+  }
+
+  > .dropdown-menu {
+    @include media-breakpoint-down(xl) {
+      display: none !important;
+    }
+  }
+}
